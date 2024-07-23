@@ -8,7 +8,6 @@
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "test",
             "appearance": "single_line",
             "body": "Test",
             "description": null,
@@ -26,7 +25,6 @@
         },
         {
             "a_b_testing": true,
-            "api_id": "stack",
             "body": "Stack",
             "description": null,
             "description_appearance": "help_text",
