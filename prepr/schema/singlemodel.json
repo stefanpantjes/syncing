@@ -8,7 +8,6 @@
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "title",
             "appearance": "single_line",
             "body": "Title",
             "description": null,
