@@ -1,0 +1,138 @@
+{
+    "body": "Person",
+    "body_plural": "Persons",
+    "body_singular": "Person",
+    "commenting": true,
+    "description": "Article authors and livestream speakers",
+    "engagement_insights": true,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "full_name",
+            "appearance": "single_line",
+            "body": "Full name",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": true,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": true,
+            "allow_caption": false,
+            "api_id": "profile_pic",
+            "body": "Profile pic",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "max": "1",
+            "min": "0",
+            "presets": [
+                {
+                    "height": "192",
+                    "name": "Mobile",
+                    "width": "309"
+                }
+            ],
+            "presets_change_required": true,
+            "required": true,
+            "type": "Asset"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "bio",
+            "appearance": "textarea",
+            "body": "Bio",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment",
+                "H1",
+                "H2",
+                "H3",
+                "H4",
+                "H5",
+                "H6"
+            ],
+            "accept_restrictions": null,
+            "api_id": "htnl",
+            "appearance": "html_editor",
+            "body": "HTNL",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "st",
+            "body": "St",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Category",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "7b4a13d1-82bf-41c2-a4c2-c2baf9f0f9a6"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "AIComponent",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "00f87e84-1a31-46e4-86df-ed8896e5900f"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "506b7039-eb22-4f07-b28c-b85ae7d21ecf",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": false,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

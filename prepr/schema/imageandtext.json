@@ -1,0 +1,54 @@
+{
+    "api_id": "ImageAndText",
+    "body": "Image and text",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": true,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "text",
+            "appearance": "textarea",
+            "body": "Text",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "image",
+            "body": "Image",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "max": "1",
+            "min": "0",
+            "presets_change_required": false,
+            "required": true,
+            "type": "Asset"
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-address-card",
+    "label": "Component",
+    "ref": "65db0dce-3df3-4e97-99ab-b373f62871cd"
+}

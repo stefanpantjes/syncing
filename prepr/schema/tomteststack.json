@@ -1,0 +1,64 @@
+{
+    "body": "Tom Test Stack",
+    "body_plural": "TomTestStacks",
+    "body_singular": "TomTestStack",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "test",
+            "appearance": "single_line",
+            "body": "Test",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "Stack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "DINGESDanny",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "f0b77857-bda1-4d61-a24d-0cedcbf78e24"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "7c97068e-53ea-4bf8-bd66-8725c807f25b",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

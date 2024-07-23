@@ -1,0 +1,34 @@
+{
+    "api_id": "StackComponent",
+    "body": "Stack component",
+    "description": null,
+    "fields": [
+        {
+            "a_b_testing": false,
+            "api_id": "stack_item",
+            "body": "stack item",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": false,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "AIComponent",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "00f87e84-1a31-46e4-86df-ed8896e5900f"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-compress",
+    "label": "Component",
+    "ref": "a2cd48f0-61df-4fb1-8602-9c74d329d5bd"
+}

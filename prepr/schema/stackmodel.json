@@ -1,0 +1,278 @@
+{
+    "body": "Stack model",
+    "body_plural": "StackModels",
+    "body_singular": "StackModel",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "Stack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "DINGESDanny",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "f0b77857-bda1-4d61-a24d-0cedcbf78e24"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "AIComponent",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "00f87e84-1a31-46e4-86df-ed8896e5900f"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ArticleCollection",
+                    "label": "Component",
+                    "position": 3,
+                    "ref": "d69d5a07-d4c0-4d68-b2c0-87f086beab03"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Danny",
+                    "label": "Component",
+                    "position": 4,
+                    "ref": "dd776e2d-4900-4026-9ee5-4b8638e5a7b6"
+                }
+            ]
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "jg",
+            "body": "jg",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "DINGESDanny",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "f0b77857-bda1-4d61-a24d-0cedcbf78e24"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "AIComponent",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "00f87e84-1a31-46e4-86df-ed8896e5900f"
+                }
+            ]
+        },
+        {
+            "accept": [
+                "Heading",
+                "H1",
+                "H2",
+                "H3",
+                "H4",
+                "H5",
+                "H6",
+                "Paragraph",
+                "TextArea",
+                "Html",
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment",
+                "Code",
+                "Asset",
+                "Photo",
+                "Video",
+                "Audio",
+                "Document",
+                "TwitterPost",
+                "InstagramPost",
+                "FacebookPost",
+                "YouTubePost",
+                "VimeoPost",
+                "TikTokPost",
+                "SpotifyPlaylist",
+                "SoundCloudPost",
+                "ApplePodcast",
+                "Quote",
+                "Resource",
+                "NavigationItem",
+                "Coordinates"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "editor",
+            "body": "Editor",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": {
+                "translate": "1"
+            },
+            "presets_change_required": false,
+            "required": false,
+            "type": "ElementBox",
+            "types": [
+                {
+                    "body_singular": "Fake",
+                    "label": "ContentModel",
+                    "ref": "6edc9283-48ca-4e04-9ac8-0a03f8c02127"
+                },
+                {
+                    "body_singular": "OpenAIFakeRemoteSource",
+                    "label": "ContentModel",
+                    "ref": "8e57d5b6-755a-424a-b62c-f4a5816ca6e1"
+                },
+                {
+                    "body_singular": "POMS",
+                    "label": "ContentModel",
+                    "ref": "91b3adf1-f861-4cc6-bd82-d8e38f426a24"
+                },
+                {
+                    "body_singular": "PreprExampleShop",
+                    "label": "ContentModel",
+                    "ref": "7fc15f9d-7829-4dce-918e-4a8f49834a0b"
+                },
+                {
+                    "api_id": "AIComponent",
+                    "label": "Component",
+                    "ref": "00f87e84-1a31-46e4-86df-ed8896e5900f"
+                },
+                {
+                    "api_id": "ArticleCollection",
+                    "label": "Component",
+                    "ref": "d69d5a07-d4c0-4d68-b2c0-87f086beab03"
+                },
+                {
+                    "api_id": "ImageAndText",
+                    "label": "Component",
+                    "ref": "65db0dce-3df3-4e97-99ab-b373f62871cd"
+                },
+                {
+                    "api_id": "PageHeader",
+                    "label": "Component",
+                    "ref": "2900e73b-650e-48b0-9193-c8ce6a9e52f6"
+                },
+                {
+                    "api_id": "SEO",
+                    "label": "Component",
+                    "ref": "d3e71bec-e6e1-40fc-b5f1-04de2203821f"
+                }
+            ]
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "newest_stack",
+            "body": "Newest stack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "AIComponent",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "00f87e84-1a31-46e4-86df-ed8896e5900f"
+                }
+            ]
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "aller_nieuwste",
+            "body": "Aller nieuwste",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "AIComponent",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "00f87e84-1a31-46e4-86df-ed8896e5900f"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ArticleCollection",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "d69d5a07-d4c0-4d68-b2c0-87f086beab03"
+                }
+            ]
+        },
+        {
+            "api_id": "reference",
+            "appearance": "modal",
+            "body": "Reference",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "ACT1889UniqueValue",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "9875cf4a-0582-4996-b414-bb9b9ffeb071"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "893996ec-27b6-4d98-a3db-eaf6733add70",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

@@ -1,0 +1,74 @@
+{
+    "api_id": "ProductCollection",
+    "body": "Product collection",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "heading",
+            "appearance": "single_line",
+            "body": "Heading",
+            "description": "Headline text to explain products being displayed",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "description",
+            "appearance": "textarea",
+            "body": "Description",
+            "description": "Brief description to explain the products displayed.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "cta_label",
+            "appearance": "single_line",
+            "body": "CTA label",
+            "description": "Call to action label used to open another page, e.g. to open webshop.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "cta_url",
+            "appearance": "single_line",
+            "body": "CTA URL",
+            "description": "Hardcoded URL text for the call to action.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "api_id": "products",
+            "body": "Products",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "max": "99",
+            "min": "0",
+            "required": false,
+            "type": "ContentIntegration"
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-cart-shopping-fast",
+    "label": "Component",
+    "ref": "5ef79524-2dc6-4fab-9f09-3e1ed1a91f45"
+}

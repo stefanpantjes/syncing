@@ -1,0 +1,86 @@
+{
+    "api_id": "ArticleCollection",
+    "body": "Article collection",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "heading",
+            "appearance": "single_line",
+            "body": "Heading",
+            "description": "Headline for group of articles being displayed.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "description",
+            "appearance": "single_line",
+            "body": "Description",
+            "description": "Short description to explain the group of articles displayed.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "cta_label",
+            "appearance": "single_line",
+            "body": "CTA label",
+            "description": "A call to action label for these articles, e.g. To open the detailed list.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "cta_url",
+            "appearance": "single_line",
+            "body": "CTA URL",
+            "description": "A hardcoded URL link to open another page.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "api_id": "articles",
+            "appearance": "modal",
+            "body": "Articles",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "group": false,
+            "max": "3",
+            "min": "1",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Article",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "73a082ed-96b9-487e-880f-d8b122d85131"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-newspaper",
+    "label": "Component",
+    "ref": "d69d5a07-d4c0-4d68-b2c0-87f086beab03"
+}

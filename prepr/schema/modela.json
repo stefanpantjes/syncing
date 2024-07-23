@@ -1,0 +1,210 @@
+{
+    "body": "Model A",
+    "body_plural": "ModelAs",
+    "body_singular": "ModelA",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "api_id": "week",
+            "body": "week",
+            "description": null,
+            "description_appearance": "help_text",
+            "enum": {
+                "body_singular": "DayOfTheWeek",
+                "label": "ContentModel",
+                "ref": "3ce4fd5c-931c-4f30-b0b4-1f4163df0333"
+            },
+            "field_state": "read_write",
+            "required": false,
+            "type": "Enum"
+        },
+        {
+            "api_id": "text_filter",
+            "body": "Text Filter",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "remote_source": {
+                "body_singular": "OpenAIFakeRemoteSource",
+                "label": "ContentModel",
+                "ref": "8e57d5b6-755a-424a-b62c-f4a5816ca6e1"
+            },
+            "required": false,
+            "type": "ContentIntegration"
+        },
+        {
+            "accept": [
+                "Heading",
+                "H1",
+                "H2",
+                "H3",
+                "H4",
+                "H5",
+                "H6",
+                "Paragraph",
+                "TextArea",
+                "Html",
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment",
+                "Code",
+                "Asset",
+                "Photo",
+                "Video",
+                "Audio",
+                "Document",
+                "TwitterPost",
+                "InstagramPost",
+                "FacebookPost",
+                "YouTubePost",
+                "VimeoPost",
+                "TikTokPost",
+                "SpotifyPlaylist",
+                "SoundCloudPost",
+                "ApplePodcast",
+                "Quote",
+                "Resource",
+                "NavigationItem",
+                "Coordinates"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "dyc",
+            "body": "DYC",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": {
+                "translate": "1"
+            },
+            "presets_change_required": false,
+            "required": false,
+            "type": "ElementBox",
+            "types": [
+                {
+                    "body_singular": "Fake",
+                    "label": "ContentModel",
+                    "ref": "6edc9283-48ca-4e04-9ac8-0a03f8c02127"
+                },
+                {
+                    "body_singular": "OpenAIFakeRemoteSource",
+                    "label": "ContentModel",
+                    "ref": "8e57d5b6-755a-424a-b62c-f4a5816ca6e1"
+                },
+                {
+                    "body_singular": "POMS",
+                    "label": "ContentModel",
+                    "ref": "91b3adf1-f861-4cc6-bd82-d8e38f426a24"
+                },
+                {
+                    "body_singular": "PreprExampleShop",
+                    "label": "ContentModel",
+                    "ref": "7fc15f9d-7829-4dce-918e-4a8f49834a0b"
+                }
+            ]
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "seo_title",
+            "appearance": "single_line",
+            "body": "SEO Title",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "seo_metadata",
+            "appearance": "single_line",
+            "body": "SEO metadata",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "accept": [
+                "H3",
+                "H4",
+                "H5",
+                "H6",
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment"
+            ],
+            "accept_restrictions": null,
+            "api_id": "head",
+            "appearance": "html_editor",
+            "body": "HEAD",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "4c8fa4c1-3a85-406e-a449-09b337c691ef",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

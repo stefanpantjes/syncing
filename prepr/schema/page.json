@@ -1,0 +1,190 @@
+{
+    "body": "Page",
+    "body_plural": "Pages",
+    "body_singular": "Page",
+    "commenting": true,
+    "description": "For pages such as homepages or promo pages.",
+    "engagement_insights": true,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": true,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "test_max",
+            "appearance": "single_line",
+            "body": "Test max",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "10",
+            "no_html": false,
+            "openai_options": {
+                "generate": "[prepr_ai_generate:title]",
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "api_id": "test_max2",
+            "body": "Test max",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": null,
+            "required": false,
+            "type": "Integer",
+            "unique": false
+        },
+        {
+            "body": "Slug",
+            "description": "The slug is generated automatically. You can change the slug, as long as it is unique.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "required": false,
+            "type": "Slug"
+        },
+        {
+            "api_id": "remote",
+            "body": "Remote",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "remote_source": {
+                "body_singular": "OpenAIFakeRemoteSource",
+                "label": "ContentModel",
+                "ref": "8e57d5b6-755a-424a-b62c-f4a5816ca6e1"
+            },
+            "required": false,
+            "type": "ContentIntegration"
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "Stack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "max": "99",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "PageHeader",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "2900e73b-650e-48b0-9193-c8ce6a9e52f6"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ImageAndText",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "65db0dce-3df3-4e97-99ab-b373f62871cd"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "CallToAction",
+                    "label": "ContentModel",
+                    "position": 3,
+                    "ref": "ffaa4d06-5718-4a71-805b-290f8a9bb834"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ArticleCollection",
+                    "label": "Component",
+                    "position": 4,
+                    "ref": "d69d5a07-d4c0-4d68-b2c0-87f086beab03"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ProductCollection",
+                    "label": "Component",
+                    "position": 5,
+                    "ref": "5ef79524-2dc6-4fab-9f09-3e1ed1a91f45"
+                }
+            ]
+        },
+        {
+            "appearance": "open",
+            "body": "SEO",
+            "description": null,
+            "description_appearance": "help_text",
+            "type": "Divider"
+        },
+        {
+            "api_id": "seo",
+            "body": "SEO",
+            "component": {
+                "api_id": "SEO",
+                "label": "Component",
+                "ref": "d3e71bec-e6e1-40fc-b5f1-04de2203821f"
+            },
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "framed": true,
+            "required": false,
+            "type": "Component"
+        },
+        {
+            "api_id": "youtube",
+            "body": "Youtube",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "required": false,
+            "type": "YouTubePost"
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "61baca5f-97c2-41da-a8eb-de306a8c3b56",
+    "review_urls": [
+        {
+            "body": "View on example site",
+            "url": "https:\/\/patterns.prepr.io\/page\/{slug}?token={access_token}"
+        },
+        {
+            "body": "134",
+            "url": "https:\/\/patterns.prepr.io\/page\/{slug}?token={access_token}"
+        },
+        {
+            "body": "678",
+            "url": "https:\/\/patterns.prepr.io\/page\/{slug}?token={access_token}"
+        }
+    ],
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": "{title}",
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

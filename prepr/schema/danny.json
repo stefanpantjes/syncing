@@ -1,0 +1,49 @@
+{
+    "api_id": "Danny",
+    "body": "Danny",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "a_b_testing": false,
+            "api_id": "substack",
+            "body": "Substack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": false,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Danny2",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "2af496a4-677f-4944-b83d-551a28365460"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "icon": "fab fa-500px",
+    "label": "Component",
+    "ref": "dd776e2d-4900-4026-9ee5-4b8638e5a7b6"
+}

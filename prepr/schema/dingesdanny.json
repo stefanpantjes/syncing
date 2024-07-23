@@ -1,0 +1,73 @@
+{
+    "body": "[DINGES] - Danny",
+    "body_plural": "DINGESDannys",
+    "body_singular": "DINGESDanny",
+    "commenting": true,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "feref",
+            "body": "feref",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Danny",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "dd776e2d-4900-4026-9ee5-4b8638e5a7b6"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "f0b77857-bda1-4d61-a24d-0cedcbf78e24",
+    "review_urls": [
+        {
+            "body": "Production",
+            "url": "https:\/\/prepr.io\/{id}\/{slug}"
+        },
+        {
+            "body": "Development",
+            "url": "https:\/\/prepr.com\/{id}\/{slug}"
+        }
+    ],
+    "scheduling": true,
+    "seo_score": false,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

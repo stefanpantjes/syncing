@@ -1,0 +1,55 @@
+{
+    "body": "Fake",
+    "body_singular": "Fake",
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "titel",
+            "appearance": "single_line",
+            "body": "Titel",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_only",
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "text",
+            "appearance": "single_line",
+            "body": "Text",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_only",
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "source_id": "text",
+            "type": "Text"
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "6edc9283-48ca-4e04-9ac8-0a03f8c02127",
+    "remote_source_active": true,
+    "remote_source_button_text": "Fake",
+    "remote_source_domains": [
+        "picsum.photos",
+        "unsplash",
+        "*.unsplash",
+        "*.picsum",
+        "*.picsum.photos",
+        "*.unsplash.com"
+    ],
+    "remote_source_headers": null,
+    "remote_source_icon": "fas fa-scroll-old",
+    "remote_source_last_sync": 0,
+    "remote_source_sync": true,
+    "remote_source_url": "https:\/\/openai.prepr.it\/api\/fake_remote_source",
+    "type": "remote_source"
+}

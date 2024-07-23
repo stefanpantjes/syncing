@@ -1,0 +1,81 @@
+{
+    "api_id": "PageHeader",
+    "body": "Page header",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "heading",
+            "appearance": "single_line",
+            "body": "Heading",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "max": "100",
+            "no_html": false,
+            "openai_options": null,
+            "required": true,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "image",
+            "body": "Image",
+            "description": "The main image that appears at the top of a page.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "max": "1",
+            "min": "0",
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "text",
+            "appearance": "textarea",
+            "body": "Text",
+            "description": "Short text that appears at the top of a page.",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "cta_label",
+            "appearance": "single_line",
+            "body": "CTA Label",
+            "description": "Used to identify this page header, e.g. Home page header",
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "cta_url",
+            "appearance": "single_line",
+            "body": "CTA URL",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "type": "Text"
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-image",
+    "label": "Component",
+    "ref": "2900e73b-650e-48b0-9193-c8ce6a9e52f6"
+}
