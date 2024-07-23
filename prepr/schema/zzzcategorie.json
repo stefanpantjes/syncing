@@ -1,16 +1,16 @@
 {
-    "body": "Tom Test Stack",
-    "body_plural": "TomTestStacks",
-    "body_singular": "TomTestStack",
+    "body": "ZZZ Categorie",
+    "body_plural": "ZZZCategories",
+    "body_singular": "ZZZCategorie",
     "commenting": false,
     "description": null,
     "engagement_insights": false,
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "test",
+            "api_id": "title",
             "appearance": "single_line",
-            "body": "Test",
+            "body": "Title",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
@@ -25,9 +25,38 @@
             "unique": false
         },
         {
+            "appearance": "1",
+            "body": "Columns",
+            "description_appearance": "help_text",
+            "type": "Column"
+        },
+        {
+            "a_b_testing": false,
+            "api_id": "refernec",
+            "body": "Refernec",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": false,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "AIModel",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "74aa38db-27cd-4b4d-866d-bac6c497f84b"
+                }
+            ]
+        },
+        {
             "a_b_testing": true,
-            "api_id": "stack",
-            "body": "Stack",
+            "api_id": "asdf",
+            "body": "asdf",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
@@ -40,10 +69,10 @@
                 {
                     "allow_group": false,
                     "allow_new": true,
-                    "body_singular": "DINGESDanny",
+                    "body_singular": "AIModel",
                     "label": "ContentModel",
                     "position": 1,
-                    "ref": "f0b77857-bda1-4d61-a24d-0cedcbf78e24"
+                    "ref": "74aa38db-27cd-4b4d-866d-bac6c497f84b"
                 }
             ]
         }
@@ -51,7 +80,7 @@
     "folder": null,
     "label": "ContentModel",
     "localization": true,
-    "ref": "7c97068e-53ea-4bf8-bd66-8725c807f25b",
+    "ref": "4c147f6b-1776-483b-a3b0-a652b519dc35",
     "review_urls": null,
     "scheduling": true,
     "seo_score": true,

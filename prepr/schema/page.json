@@ -2,9 +2,9 @@
     "body": "Page",
     "body_plural": "Pages",
     "body_singular": "Page",
-    "commenting": true,
-    "description": "For pages such as homepages or promo pages.",
-    "engagement_insights": true,
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
     "fields": [
         {
             "accept_restrictions": null,
@@ -13,75 +13,108 @@
             "body": "Title",
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
-            "no_html": false,
-            "openai_options": null,
-            "required": true,
-            "seo_title": true,
-            "title": true,
-            "type": "Text"
-        },
-        {
-            "accept_restrictions": null,
-            "api_id": "test_max",
-            "appearance": "single_line",
-            "body": "Test max",
-            "description": null,
-            "description_appearance": "help_text",
             "field_state": "read_write",
-            "max": "10",
             "no_html": false,
             "openai_options": {
-                "generate": "[prepr_ai_generate:title]",
                 "translate": "1"
             },
             "required": false,
+            "seo_title": true,
+            "title": true,
             "type": "Text",
             "unique": false
         },
         {
-            "api_id": "test_max2",
-            "body": "Test max",
+            "accept": [
+                "H1",
+                "H2",
+                "H3",
+                "H4",
+                "H5",
+                "H6",
+                "Heading",
+                "TextArea",
+                "Html",
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment",
+                "Code",
+                "Paragraph",
+                "Photo",
+                "Video",
+                "Audio",
+                "Document",
+                "Asset",
+                "TwitterPost",
+                "InstagramPost",
+                "FacebookPost",
+                "YouTubePost",
+                "VimeoPost",
+                "TikTokPost",
+                "SpotifyPlaylist",
+                "SoundCloudPost",
+                "ApplePodcast",
+                "Coordinates"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "editor",
+            "body": "Editor",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
-            "openai_options": null,
+            "openai_options": {
+                "translate": "1"
+            },
+            "presets_change_required": false,
             "required": false,
-            "type": "Integer",
-            "unique": false
+            "type": "ElementBox",
+            "types": [
+                {
+                    "api_id": "SEO",
+                    "label": "Component",
+                    "ref": "c3514e32-9025-40ac-8fac-29228121bb39"
+                },
+                {
+                    "api_id": "TextImageSection",
+                    "label": "Component",
+                    "ref": "eaa57aef-beb1-43d2-970d-cfc843f9bbae"
+                },
+                {
+                    "api_id": "MainComponent",
+                    "label": "Component",
+                    "ref": "c27e0ac4-d9f6-4adb-a619-cf8b08359685"
+                },
+                {
+                    "api_id": "Link",
+                    "label": "Component",
+                    "ref": "910cea62-f3b2-4220-8238-3f2637132dfc"
+                },
+                {
+                    "api_id": "StackComponent",
+                    "label": "Component",
+                    "ref": "eeea16ff-1d8b-48cb-92ad-296a45d614ff"
+                },
+                {
+                    "api_id": "NEwComponent",
+                    "label": "Component",
+                    "ref": "54d63f9d-9347-4c7f-bf69-c28da9205a76"
+                }
+            ]
         },
         {
-            "body": "Slug",
-            "description": "The slug is generated automatically. You can change the slug, as long as it is unique.",
-            "description_appearance": "help_text",
-            "field_state": null,
-            "required": false,
-            "type": "Slug"
-        },
-        {
-            "api_id": "remote",
-            "body": "Remote",
+            "a_b_testing": true,
+            "api_id": "stackie",
+            "body": "Stackie",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
             "max": "1000",
-            "min": "0",
-            "remote_source": {
-                "body_singular": "OpenAIFakeRemoteSource",
-                "label": "ContentModel",
-                "ref": "8e57d5b6-755a-424a-b62c-f4a5816ca6e1"
-            },
-            "required": false,
-            "type": "ContentIntegration"
-        },
-        {
-            "a_b_testing": true,
-            "api_id": "stack",
-            "body": "Stack",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": null,
-            "max": "99",
             "min": "0",
             "personalization": true,
             "required": false,
@@ -90,101 +123,65 @@
                 {
                     "allow_group": false,
                     "allow_new": false,
-                    "api_id": "PageHeader",
+                    "api_id": "SEO",
                     "label": "Component",
                     "position": 1,
-                    "ref": "2900e73b-650e-48b0-9193-c8ce6a9e52f6"
+                    "ref": "c3514e32-9025-40ac-8fac-29228121bb39"
                 },
                 {
                     "allow_group": false,
                     "allow_new": false,
-                    "api_id": "ImageAndText",
+                    "api_id": "StackComponent",
                     "label": "Component",
                     "position": 2,
-                    "ref": "65db0dce-3df3-4e97-99ab-b373f62871cd"
+                    "ref": "eeea16ff-1d8b-48cb-92ad-296a45d614ff"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "NEwComponent",
+                    "label": "Component",
+                    "position": 3,
+                    "ref": "54d63f9d-9347-4c7f-bf69-c28da9205a76"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "MainComponent",
+                    "label": "Component",
+                    "position": 4,
+                    "ref": "c27e0ac4-d9f6-4adb-a619-cf8b08359685"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "TextImageSection",
+                    "label": "Component",
+                    "position": 5,
+                    "ref": "eaa57aef-beb1-43d2-970d-cfc843f9bbae"
                 },
                 {
                     "allow_group": false,
                     "allow_new": true,
-                    "body_singular": "CallToAction",
+                    "body_singular": "Andere",
                     "label": "ContentModel",
-                    "position": 3,
-                    "ref": "ffaa4d06-5718-4a71-805b-290f8a9bb834"
-                },
-                {
-                    "allow_group": false,
-                    "allow_new": false,
-                    "api_id": "ArticleCollection",
-                    "label": "Component",
-                    "position": 4,
-                    "ref": "d69d5a07-d4c0-4d68-b2c0-87f086beab03"
-                },
-                {
-                    "allow_group": false,
-                    "allow_new": false,
-                    "api_id": "ProductCollection",
-                    "label": "Component",
-                    "position": 5,
-                    "ref": "5ef79524-2dc6-4fab-9f09-3e1ed1a91f45"
+                    "position": 6,
+                    "ref": "2c97827d-e3a4-4590-b58e-5be7c367cbe2"
                 }
             ]
-        },
-        {
-            "appearance": "open",
-            "body": "SEO",
-            "description": null,
-            "description_appearance": "help_text",
-            "type": "Divider"
-        },
-        {
-            "api_id": "seo",
-            "body": "SEO",
-            "component": {
-                "api_id": "SEO",
-                "label": "Component",
-                "ref": "d3e71bec-e6e1-40fc-b5f1-04de2203821f"
-            },
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": null,
-            "framed": true,
-            "required": false,
-            "type": "Component"
-        },
-        {
-            "api_id": "youtube",
-            "body": "Youtube",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "required": false,
-            "type": "YouTubePost"
         }
     ],
     "folder": null,
     "label": "ContentModel",
     "localization": true,
-    "ref": "61baca5f-97c2-41da-a8eb-de306a8c3b56",
-    "review_urls": [
-        {
-            "body": "View on example site",
-            "url": "https:\/\/patterns.prepr.io\/page\/{slug}?token={access_token}"
-        },
-        {
-            "body": "134",
-            "url": "https:\/\/patterns.prepr.io\/page\/{slug}?token={access_token}"
-        },
-        {
-            "body": "678",
-            "url": "https:\/\/patterns.prepr.io\/page\/{slug}?token={access_token}"
-        }
-    ],
+    "ref": "11100eb5-54f5-45a7-8e61-e3c68bd0221c",
+    "review_urls": null,
     "scheduling": true,
     "seo_score": true,
     "single_instance": false,
-    "slug": "{title}",
+    "slug": null,
     "slug_postfix": true,
     "type": "model",
-    "versioning": true,
+    "versioning": false,
     "workflow": true
 }

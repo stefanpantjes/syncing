@@ -1,0 +1,97 @@
+{
+    "api_id": "NEwComponent",
+    "body": "NEw component",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "test",
+            "appearance": "single_line",
+            "body": "Test",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "generate": "Combine\u00a0[prepr_ai_generate:nested.seo_title]\u00a0and\u00a0[prepr_ai_generate:nested.nog_meer]",
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "info",
+            "appearance": "textarea",
+            "body": "Info",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "generate": "Generate a meta description of up to 120 characters based on [prepr_ai_generate:test]",
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "andere",
+            "appearance": "single_line",
+            "body": "Andere",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "generate": "Generate a title of up to 60 characters based on [prepr_ai_generate:info] and with a [prepr_ai_generate:@AIModel.tone]\u00a0tone",
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "api_id": "nested",
+            "body": "Nested",
+            "component": {
+                "api_id": "SEO",
+                "label": "Component",
+                "ref": "c3514e32-9025-40ac-8fac-29228121bb39"
+            },
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "framed": true,
+            "required": false,
+            "type": "Component"
+        },
+        {
+            "api_id": "reference",
+            "appearance": null,
+            "body": "Reference",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "group": false,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "MainCategory",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "fa2dcb34-4401-43c2-b1a3-f99839281c21"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "icon": "far fa-0",
+    "label": "Component",
+    "ref": "54d63f9d-9347-4c7f-bf69-c28da9205a76"
+}

@@ -1,6 +1,6 @@
 {
-    "api_id": "Danny",
-    "body": "Danny",
+    "api_id": "Link",
+    "body": "Link",
     "description": null,
     "fields": [
         {
@@ -19,31 +19,31 @@
             "type": "Text"
         },
         {
-            "a_b_testing": false,
-            "api_id": "substack",
-            "body": "Substack",
+            "api_id": "reference",
+            "appearance": null,
+            "body": "Reference",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
+            "group": false,
             "max": "1000",
             "min": "0",
-            "personalization": false,
             "required": false,
-            "type": "Stack",
+            "type": "ContentReference",
             "types": [
                 {
                     "allow_group": false,
-                    "allow_new": false,
-                    "api_id": "Danny2",
-                    "label": "Component",
+                    "allow_new": true,
+                    "body_singular": "AIModel",
+                    "label": "ContentModel",
                     "position": 1,
-                    "ref": "2af496a4-677f-4944-b83d-551a28365460"
+                    "ref": "74aa38db-27cd-4b4d-866d-bac6c497f84b"
                 }
             ]
         }
     ],
     "folder": null,
-    "icon": "fab fa-500px",
+    "icon": "fas fa-link",
     "label": "Component",
-    "ref": "dd776e2d-4900-4026-9ee5-4b8638e5a7b6"
+    "ref": "910cea62-f3b2-4220-8238-3f2637132dfc"
 }

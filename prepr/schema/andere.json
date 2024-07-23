@@ -1,0 +1,185 @@
+{
+    "body": "Andere",
+    "body_plural": "Anderes",
+    "body_singular": "Andere",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "test",
+            "appearance": "single_line",
+            "body": "Test",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "Stack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Andere",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "2c97827d-e3a4-4590-b58e-5be7c367cbe2"
+                }
+            ]
+        },
+        {
+            "api_id": "seo",
+            "body": "seo",
+            "component": {
+                "api_id": "SEO",
+                "label": "Component",
+                "ref": "c3514e32-9025-40ac-8fac-29228121bb39"
+            },
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": null,
+            "framed": true,
+            "required": false,
+            "type": "Component"
+        },
+        {
+            "api_id": "reference",
+            "appearance": "modal",
+            "body": "Reference",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "MainCategory",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "fa2dcb34-4401-43c2-b1a3-f99839281c21"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Andere",
+                    "label": "ContentModel",
+                    "position": 2,
+                    "ref": "2c97827d-e3a4-4590-b58e-5be7c367cbe2"
+                }
+            ]
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "extra",
+            "appearance": "single_line",
+            "body": "Extra",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "api_id": "number",
+            "body": "Number",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": null,
+            "required": false,
+            "type": "Integer",
+            "unique": false
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "required_text",
+            "appearance": "single_line",
+            "body": "Required text",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "regex": "(([^<>()[\\]\\.,;:\\s@\"]+(\\.[^<>()[\\]\\.,;:\\s@\"]+)*)|.(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))",
+            "required": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "api_id": "day",
+            "body": "Day",
+            "description": null,
+            "description_appearance": "help_text",
+            "enum": {
+                "body_singular": "DaysOfWeek",
+                "label": "ContentModel",
+                "ref": "45fdef1e-620f-437a-84d1-d8950baec291"
+            },
+            "field_state": "read_write",
+            "required": true,
+            "type": "Enum"
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "allow_multiple": true,
+            "api_id": "asstes",
+            "body": "asstes",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        }
+    ],
+    "folder": "Test",
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "2c97827d-e3a4-4590-b58e-5be7c367cbe2",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

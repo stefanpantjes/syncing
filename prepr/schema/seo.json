@@ -5,60 +5,67 @@
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "title",
+            "api_id": "seo_title",
             "appearance": "single_line",
-            "body": "Meta title",
-            "description": "The title that the front end will use for SEO and social media.",
+            "body": "SEO title",
+            "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
-            "max": "60",
+            "field_state": "read_write",
             "no_html": false,
-            "openai_options": null,
+            "openai_options": {
+                "generate": "Generate a meta title of up to 80 characters based on [prepr_ai_generate:@Page.title][prepr_ai_generate:@Andere.test][prepr_ai_generate:@AIModel.title]",
+                "translate": "1"
+            },
             "required": false,
             "type": "Text"
         },
         {
             "accept_restrictions": null,
-            "api_id": "description",
+            "api_id": "nog_meer",
             "appearance": "single_line",
-            "body": "Meta description",
-            "description": "Used by the front end for SEO and Social media",
+            "body": "SEO description",
+            "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
-            "max": "165",
+            "field_state": "read_write",
             "no_html": false,
-            "openai_options": null,
+            "openai_options": {
+                "generate": "Generate a meta description of up to 120 characters based on [prepr_ai_generate:seo_title] and [prepr_ai_generate:@Page.title][prepr_ai_generate:@AIModel.title][prepr_ai_generate:@Andere.test]",
+                "improve": [
+                    "writing",
+                    "fix_spelling_grammar",
+                    "shorter",
+                    "longer",
+                    "simplify_language"
+                ],
+                "translate": "1"
+            },
             "required": false,
             "type": "Text"
         },
         {
-            "accept": [
-                "file",
-                "photo"
-            ],
-            "allow_align": false,
-            "allow_caption": false,
-            "api_id": "social_media_image",
-            "body": "Social media image",
+            "appearance": "1",
+            "body": "Columns",
+            "description_appearance": "help_text",
+            "type": "Column"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "required_text",
+            "appearance": "single_line",
+            "body": "Required text",
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
-            "max": "1",
-            "min": "1",
-            "presets": [
-                {
-                    "height": "400",
-                    "name": "Square",
-                    "width": "400"
-                }
-            ],
-            "presets_change_required": true,
-            "required": false,
-            "type": "Asset"
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": true,
+            "type": "Text"
         }
     ],
     "folder": null,
-    "icon": "fas fa-magnifying-glass",
+    "icon": "fas fa-accent-grave",
     "label": "Component",
-    "ref": "d3e71bec-e6e1-40fc-b5f1-04de2203821f"
+    "ref": "c3514e32-9025-40ac-8fac-29228121bb39"
 }

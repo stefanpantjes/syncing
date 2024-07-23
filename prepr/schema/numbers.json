@@ -1,0 +1,20 @@
+{
+    "body": "Numbers",
+    "body_singular": "Numbers",
+    "enum": [
+        {
+            "display": "1",
+            "value": "1"
+        },
+        {
+            "display": "2",
+            "value": "2"
+        }
+    ],
+    "enum_as_string": false,
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "2961bad2-2eb6-4948-8de4-cac31cceb1c8",
+    "type": "enum"
+}
