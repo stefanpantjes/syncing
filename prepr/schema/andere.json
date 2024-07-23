@@ -10,7 +10,6 @@
             "accept_restrictions": null,
             "api_id": "test",
             "appearance": "single_line",
-            "body": "Test",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
@@ -117,6 +116,7 @@
             "openai_options": null,
             "required": false,
             "type": "Integer",
+            "default_value": "Test 123",
             "unique": false
         },
         {
