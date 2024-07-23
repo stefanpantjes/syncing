@@ -23,7 +23,6 @@
             "accept_restrictions": null,
             "api_id": "info",
             "appearance": "textarea",
-            "body": "Info",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
@@ -54,11 +53,6 @@
         {
             "api_id": "nested",
             "body": "Nested",
-            "component": {
-                "api_id": "SEO",
-                "label": "Component",
-                "ref": "c3514e32-9025-40ac-8fac-29228121bb39"
-            },
             "description": null,
             "description_appearance": "help_text",
             "field_state": null,
