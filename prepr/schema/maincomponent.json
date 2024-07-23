@@ -56,7 +56,7 @@
         }
     ],
     "folder": null,
-    "icon": null,
+    "icon": "fas fa-folder tw-w-8",
     "label": "Component",
     "ref": "c27e0ac4-d9f6-4adb-a619-cf8b08359685"
 }
