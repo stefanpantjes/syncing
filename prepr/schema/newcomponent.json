@@ -4,7 +4,6 @@
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "test",
             "appearance": "single_line",
             "body": "Test",
             "description": null,
