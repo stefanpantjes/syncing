@@ -7,7 +7,7 @@
             "accept_restrictions": null,
             "api_id": "title",
             "appearance": "single_line",
-            "body": "Title",
+            "body": "Title of field",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
