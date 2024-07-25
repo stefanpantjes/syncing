@@ -77,6 +77,13 @@
             "required": true,
             "type": "Text",
             "unique": false
+        },
+        {
+            "appearance": "open",
+            "body": "Test",
+            "description": null,
+            "description_appearance": "help_text",
+            "type": "Divider"
         }
     ],
     "folder": "Andere",
