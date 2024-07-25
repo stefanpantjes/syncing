@@ -11,6 +11,7 @@
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
+            "max": "1000",
             "no_html": false,
             "openai_options": {
                 "generate": "Generate a meta title of up to 80 characters based on [prepr_ai_generate:@Page.title][prepr_ai_generate:@Andere.test][prepr_ai_generate:@AIModel.title]",

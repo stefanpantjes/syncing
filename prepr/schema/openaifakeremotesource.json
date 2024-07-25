@@ -1,0 +1,35 @@
+{
+    "body": "OpenAI fake remote source",
+    "body_singular": "OpenAIFakeRemoteSource",
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "body",
+            "appearance": "single_line",
+            "body": "Body",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_only",
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "seo_title": true,
+            "source_id": "body",
+            "title": true,
+            "type": "Text"
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "bcf2e091-45af-40f4-8eef-9ef053752d62",
+    "remote_source_active": true,
+    "remote_source_button_text": "Generate with AI",
+    "remote_source_domains": null,
+    "remote_source_headers": null,
+    "remote_source_icon": "fas fa-wand-magic-sparkles",
+    "remote_source_last_sync": 0,
+    "remote_source_sync": true,
+    "remote_source_url": "https:\/\/openai.prepr.it\/api\/fake_remote_source",
+    "type": "remote_source"
+}
