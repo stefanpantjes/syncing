@@ -169,6 +169,15 @@
                     "ref": "2c97827d-e3a4-4590-b58e-5be7c367cbe2"
                 }
             ]
+        },
+        {
+            "body": "Embed",
+            "construct": "This is an embed.",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "required": false,
+            "type": "Embed"
         }
     ],
     "folder": null,
