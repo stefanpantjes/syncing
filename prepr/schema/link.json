@@ -21,7 +21,7 @@
         {
             "api_id": "reference",
             "appearance": null,
-            "body": "Reference field",
+            "body": "Reference",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
