@@ -178,6 +178,20 @@
             "field_state": "read_write",
             "required": false,
             "type": "Embed"
+        },
+        {
+            "appearance": "open",
+            "body": "Section One",
+            "description": null,
+            "description_appearance": "help_text",
+            "type": "Divider"
+        },
+        {
+            "appearance": "open",
+            "body": "Section Two",
+            "description": null,
+            "description_appearance": "help_text",
+            "type": "Divider"
         }
     ],
     "folder": null,
