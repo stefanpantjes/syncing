@@ -2,7 +2,7 @@
     "body": "AI Model",
     "body_plural": "AIModels",
     "body_singular": "AIModel",
-    "commenting": false,
+    "commenting": true,
     "description": null,
     "engagement_insights": false,
     "fields": [
