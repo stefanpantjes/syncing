@@ -18,6 +18,54 @@
             },
             "required": false,
             "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "test_2",
+            "appearance": "single_line",
+            "body": "Test 2",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "generate": "Combine\u00a0[prepr_ai_generate:nested.seo_title]\u00a0and\u00a0[prepr_ai_generate:nested.nog_meer]",
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "test_3",
+            "appearance": "single_line",
+            "body": "Test 3",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "generate": "Combine\u00a0[prepr_ai_generate:nested.seo_title]\u00a0and\u00a0[prepr_ai_generate:nested.nog_meer]",
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "test_4",
+            "appearance": "single_line",
+            "body": "Test 4",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "generate": "Combine\u00a0[prepr_ai_generate:nested.seo_title]\u00a0and\u00a0[prepr_ai_generate:nested.nog_meer]",
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
         }
     ],
     "folder": "In a folder",
