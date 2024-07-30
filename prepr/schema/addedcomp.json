@@ -18,7 +18,7 @@
             },
             "required": false,
             "type": "Text"
-        },
+        }
     ],
     "folder": "In a folder",
     "icon": "far fa-9",
