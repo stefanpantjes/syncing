@@ -55,7 +55,6 @@
             "allow_align": false,
             "allow_caption": false,
             "allow_multiple": false,
-            "api_id": "image",
             "body": "Afbeelding",
             "description": null,
             "description_appearance": "help_text",
@@ -68,7 +67,6 @@
         },
         {
             "a_b_testing": true,
-            "api_id": "sections",
             "body": "Secties",
             "description": null,
             "description_appearance": "help_text",
