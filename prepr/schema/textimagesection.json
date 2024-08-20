@@ -10,7 +10,7 @@
             "body": "Titel",
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
+            "field_state": "read_write",
             "no_html": false,
             "openai_options": {
                 "translate": "1"
@@ -25,7 +25,7 @@
             "body": "Subtitel",
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
+            "field_state": "read_write",
             "no_html": false,
             "openai_options": {
                 "translate": "1"
@@ -74,7 +74,7 @@
             "body": "Afbeelding",
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
+            "field_state": "read_write",
             "max": "1",
             "min": "0",
             "presets_change_required": false,
@@ -88,7 +88,7 @@
             "body": "Alt tekst",
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
+            "field_state": "read_write",
             "no_html": false,
             "openai_options": {
                 "translate": "1"
@@ -103,7 +103,7 @@
             "description": null,
             "description_appearance": "help_text",
             "false": "Tekst rechts tonen",
-            "field_state": null,
+            "field_state": "read_write",
             "openai_options": null,
             "required": true,
             "true": "Tekst links tonen",

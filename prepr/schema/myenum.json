@@ -1,0 +1,24 @@
+{
+    "body": "My enum",
+    "body_singular": "MyEnum",
+    "enum": [
+        {
+            "display": "True",
+            "value": "TRUE"
+        },
+        {
+            "display": "Maybe",
+            "value": "MAYBE"
+        },
+        {
+            "display": "False",
+            "value": "FALSE"
+        }
+    ],
+    "enum_as_string": false,
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "05dc5ce5-831b-4e76-895b-6cf441883977",
+    "type": "enum"
+}

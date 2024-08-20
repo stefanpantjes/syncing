@@ -13,7 +13,7 @@
             "body": "Titel",
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
+            "field_state": "read_write",
             "no_html": false,
             "openai_options": {
                 "translate": "1"
@@ -28,7 +28,7 @@
             "body": "Slug",
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
+            "field_state": "read_write",
             "required": true,
             "type": "Slug"
         },
@@ -55,6 +55,7 @@
             "allow_align": false,
             "allow_caption": false,
             "allow_multiple": false,
+            "api_id": "image",
             "body": "Afbeelding",
             "description": null,
             "description_appearance": "help_text",
@@ -67,6 +68,7 @@
         },
         {
             "a_b_testing": true,
+            "api_id": "sections",
             "body": "Secties",
             "description": null,
             "description_appearance": "help_text",

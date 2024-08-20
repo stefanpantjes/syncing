@@ -100,7 +100,7 @@
             },
             "description": null,
             "description_appearance": "help_text",
-            "field_state": null,
+            "field_state": "read_write",
             "framed": true,
             "required": false,
             "type": "Component"
