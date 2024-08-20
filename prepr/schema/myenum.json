@@ -1,5 +1,5 @@
 {
-    "body": "My enum",
+    "body": "Changes",
     "body_singular": "MyEnum",
     "enum": [
         {
@@ -13,6 +13,10 @@
         {
             "display": "False",
             "value": "FALSE"
+        },
+        {
+            "display": "Test",
+            "value": "TEST"
         }
     ],
     "enum_as_string": false,

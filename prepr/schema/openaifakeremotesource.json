@@ -199,10 +199,14 @@
     "localization": true,
     "ref": "8e57d5b6-755a-424a-b62c-f4a5816ca6e1",
     "remote_source_active": true,
-    "remote_source_button_text": "Select Dish",
-    "remote_source_domains": null,
-    "remote_source_headers": null,
-    "remote_source_icon": "fas fa-pot-food",
+    "remote_source_button_text": "Select Dish Wijzig",
+    "remote_source_domains": [
+        "google.com"
+    ],
+    "remote_source_headers": {
+        "Test": "123"
+    },
+    "remote_source_icon": "fas fa-address-card",
     "remote_source_last_sync": 0,
     "remote_source_sync": true,
     "remote_source_url": "https:\/\/openai.prepr.it\/api\/fake_remote_source?test=1",
