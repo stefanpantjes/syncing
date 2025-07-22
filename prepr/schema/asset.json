@@ -43,39 +43,6 @@
             "required": false,
             "type": "Integer",
             "unique": false
-        },
-        {
-            "accept_restrictions": null,
-            "appearance": "default",
-            "body": "Default!",
-            "description": "**Prepr Help**  \nPrepr is een CMS waarmee je flexibel content beheert en publiceert.  \nGebruik de content models om gestructureerde data eenvoudig te beheren en publiceren.",
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "openai_options": null,
-            "required": false,
-            "type": "HelpText"
-        },
-        {
-            "accept_restrictions": null,
-            "appearance": "warning",
-            "body": "Warning",
-            "description": "**Prepr Help**  \nPrepr is een CMS waarmee je flexibel content beheert en publiceert.  \nGebruik de content models om gestructureerde data eenvoudig te beheren en publiceren.",
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "openai_options": null,
-            "required": false,
-            "type": "HelpText"
-        },
-        {
-            "accept_restrictions": null,
-            "appearance": "default",
-            "body": "Info",
-            "description": "**Prepr Help**  \nPrepr is een CMS waarmee je flexibel content beheert en publiceert.  \nGebruik de content models om gestructureerde data eenvoudig te beheren en publiceren.",
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "openai_options": null,
-            "required": false,
-            "type": "HelpText"
         }
     ],
     "label": "ContentModel",
