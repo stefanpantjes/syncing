@@ -1,13 +1,23 @@
 {
     "body": "Asset",
-    "body_plural": "Assets",
     "body_singular": "Asset",
-    "commenting": true,
-    "description": null,
-    "engagement_insights": true,
     "fields": [
         {
-            "accept_restrictions": null,
+            "api_id": "licentie",
+            "appearance": "single_line",
+            "body": "Licentie",
+            "description": "Testing...",
+            "description_appearance": "placeholder",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        },
+        {
             "api_id": "copyright",
             "appearance": "single_line",
             "body": "Copyright",
@@ -24,33 +34,54 @@
             "unique": false
         },
         {
-            "accept_restrictions": null,
-            "api_id": "licentie",
-            "appearance": "single_line",
-            "body": "Licentie",
+            "api_id": "num",
+            "body": "Num",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
+            "openai_options": null,
             "required": false,
-            "type": "Text",
+            "type": "Integer",
             "unique": false
+        },
+        {
+            "accept_restrictions": null,
+            "appearance": "default",
+            "body": "Default!",
+            "description": "**Prepr Help**  \nPrepr is een CMS waarmee je flexibel content beheert en publiceert.  \nGebruik de content models om gestructureerde data eenvoudig te beheren en publiceren.",
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": null,
+            "required": false,
+            "type": "HelpText"
+        },
+        {
+            "accept_restrictions": null,
+            "appearance": "warning",
+            "body": "Warning",
+            "description": "**Prepr Help**  \nPrepr is een CMS waarmee je flexibel content beheert en publiceert.  \nGebruik de content models om gestructureerde data eenvoudig te beheren en publiceren.",
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": null,
+            "required": false,
+            "type": "HelpText"
+        },
+        {
+            "accept_restrictions": null,
+            "appearance": "default",
+            "body": "Info",
+            "description": "**Prepr Help**  \nPrepr is een CMS waarmee je flexibel content beheert en publiceert.  \nGebruik de content models om gestructureerde data eenvoudig te beheren en publiceren.",
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": null,
+            "required": false,
+            "type": "HelpText"
         }
     ],
-    "folder": null,
     "label": "ContentModel",
     "localization": true,
     "ref": "e121c3ae-354e-4695-a84b-bb00b8390f15",
     "review_urls": null,
-    "scheduling": true,
-    "seo_score": true,
-    "single_instance": false,
-    "slug": null,
-    "slug_postfix": true,
-    "type": "asset",
-    "versioning": true,
-    "workflow": true
+    "schema_version": "2025-04-09",
+    "type": "asset"
 }

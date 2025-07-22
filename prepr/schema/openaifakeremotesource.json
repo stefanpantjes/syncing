@@ -3,7 +3,6 @@
     "body_singular": "OpenAIFakeRemoteSource",
     "fields": [
         {
-            "accept_restrictions": null,
             "api_id": "body",
             "appearance": "single_line",
             "body": "body",
@@ -18,7 +17,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "category",
             "appearance": "single_line",
             "body": "category",
@@ -33,7 +31,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "image_url",
             "appearance": "single_line",
             "body": "image_url",
@@ -47,7 +44,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "idee",
             "appearance": "single_line",
             "body": "IDEE",
@@ -61,7 +57,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "type",
             "appearance": "single_line",
             "body": "type",
@@ -75,7 +70,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "difficulty",
             "appearance": "single_line",
             "body": "difficulty",
@@ -89,7 +83,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "ingredients",
             "appearance": "single_line",
             "body": "ingredients",
@@ -103,7 +96,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "cuisine",
             "appearance": "single_line",
             "body": "cuisine",
@@ -135,7 +127,6 @@
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_only",
-            "openai_options": null,
             "required": false,
             "source_id": "nuts",
             "type": "Boolean"
@@ -152,7 +143,6 @@
             "type": "Integer"
         },
         {
-            "accept_restrictions": null,
             "api_id": "created_on",
             "appearance": "single_line",
             "body": "created_on",
@@ -166,7 +156,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "description",
             "appearance": "single_line",
             "body": "description",
@@ -180,7 +169,6 @@
             "type": "Text"
         },
         {
-            "accept_restrictions": null,
             "api_id": "dit_is_een_test___",
             "appearance": "single_line",
             "body": "Dit is een test---",
@@ -192,6 +180,19 @@
             "required": false,
             "source_id": "dit_is_een_test___",
             "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "asdf",
+            "appearance": null,
+            "body": "asdf",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_only",
+            "openai_options": null,
+            "required": false,
+            "source_id": "asdf",
+            "type": "Float"
         }
     ],
     "folder": null,
@@ -200,15 +201,12 @@
     "ref": "8e57d5b6-755a-424a-b62c-f4a5816ca6e1",
     "remote_source_active": true,
     "remote_source_button_text": "Select Dish",
-    "remote_source_domains": [
-        "google.com"
-    ],
-    "remote_source_headers": {
-        "Test": "123"
-    },
-    "remote_source_icon": "fas fa-1",
+    "remote_source_domains": null,
+    "remote_source_headers": null,
+    "remote_source_icon": "fas fa-pot-food",
     "remote_source_last_sync": 0,
     "remote_source_sync": true,
     "remote_source_url": "https:\/\/openai.prepr.it\/api\/fake_remote_source?test=1",
+    "schema_version": "2025-04-09",
     "type": "remote_source"
 }
