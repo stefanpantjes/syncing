@@ -1,0 +1,77 @@
+{
+    "appearance_image": null,
+    "appearance_tag": null,
+    "body": "Pietje",
+    "body_plural": "Pietjes",
+    "body_singular": "Pietje",
+    "commenting": false,
+    "content_check": true,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "api_id": "titel",
+            "appearance": "single_line",
+            "body": "Titel",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": true,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "api_id": "items",
+            "appearance": "single_line",
+            "body": "Itemsdsfsdf",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "appearance": "1",
+            "body": "Columns",
+            "type": "Column"
+        },
+        {
+            "body": "Slug",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": null,
+            "remove_trailing_slash": false,
+            "required": false,
+            "type": "Slug"
+        }
+    ],
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "lock_content_item": false,
+    "previewing": true,
+    "ref": "5766c793-3e31-4a87-bc70-bd14db7e9efe",
+    "review_urls": null,
+    "scheduling": true,
+    "schema_version": "2025-04-09",
+    "seo_score": true,
+    "single_instance": false,
+    "slug": "{locale}\/{lang}\/{titel}",
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "visible": true,
+    "workflow": true
+}

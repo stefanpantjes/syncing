@@ -3,21 +3,6 @@
     "body_singular": "Asset",
     "fields": [
         {
-            "api_id": "licentie",
-            "appearance": "single_line",
-            "body": "Licentie",
-            "description": "Testing...",
-            "description_appearance": "placeholder",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "type": "Text",
-            "unique": false
-        },
-        {
             "api_id": "copyright",
             "appearance": "single_line",
             "body": "Copyright",
@@ -34,8 +19,45 @@
             "unique": false
         },
         {
+            "api_id": "licentie",
+            "appearance": "single_line",
+            "body": "Licentie",
+            "description": "Testing...",
+            "description_appearance": "placeholder",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        },
+        {
             "api_id": "num",
             "body": "Num",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": null,
+            "required": false,
+            "type": "Integer",
+            "unique": false
+        },
+        {
+            "api_id": "ffdd",
+            "body": "ffdd",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "openai_options": null,
+            "required": false,
+            "type": "Integer",
+            "unique": false
+        },
+        {
+            "api_id": "dd",
+            "body": "dd",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
