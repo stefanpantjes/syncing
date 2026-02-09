@@ -1,0 +1,21 @@
+{
+    "body": "Type",
+    "body_singular": "Type",
+    "enum": [
+        {
+            "display": "Waar is Rita?",
+            "value": "room1"
+        },
+        {
+            "display": "Cadeaubon",
+            "value": "giftcard"
+        }
+    ],
+    "enum_as_string": false,
+    "folder": null,
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "944386ba-5b46-48e9-81bf-9f6b5be979c2",
+    "schema_version": "2025-04-09",
+    "type": "enum"
+}
