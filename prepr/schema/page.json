@@ -10,9 +10,10 @@
     "engagement_insights": false,
     "fields": [
         {
+            "a_b_testing": false,
             "api_id": "title",
             "appearance": "single_line",
-            "body": "title",
+            "body": "Title",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
@@ -20,200 +21,29 @@
             "openai_options": {
                 "translate": "1"
             },
-            "required": true,
+            "required": false,
             "seo_title": true,
             "title": true,
             "type": "Text",
             "unique": false
         },
         {
-            "accept": [
-                "H1",
-                "H2",
-                "H3",
-                "H4",
-                "H5",
-                "H6",
-                "bold",
-                "italic",
-                "underline",
-                "unordered-list",
-                "ordered-list",
-                "link",
-                "table",
-                "alignment"
-            ],
-            "api_id": "html",
-            "appearance": "html_editor",
-            "body": "html",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "type": "Text",
-            "unique": false
-        },
-        {
-            "accept": [
-                "ApplePodcast",
-                "Asset",
-                "Audio",
-                "BlueskyPost",
-                "Code",
-                "Coordinates",
-                "Document",
-                "FacebookPost",
-                "H1",
-                "H2",
-                "H3",
-                "H4",
-                "H5",
-                "H6",
-                "Heading",
-                "Html",
-                "InstagramPost",
-                "Paragraph",
-                "Photo",
-                "SoundCloudPost",
-                "SpotifyPlaylist",
-                "TextArea",
-                "ThreadsPost",
-                "TikTokPost",
-                "TwitterPost",
-                "Video",
-                "VimeoPost",
-                "YouTubePost",
-                "alignment",
-                "bold",
-                "italic",
-                "link",
-                "ordered-list",
-                "table",
-                "underline",
-                "unordered-list"
-            ],
-            "allow_align": false,
-            "allow_caption": false,
-            "allow_focal_point": false,
-            "api_id": "editor",
-            "body": "editor",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "focal_point_required": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "presets_change_required": false,
-            "required": false,
-            "type": "ElementBox",
-            "types": []
-        },
-        {
-            "allow_multiple": true,
-            "api_id": "reference",
-            "appearance": "modal",
-            "body": "Reference",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "max": "1000",
-            "min": "0",
-            "required": true,
-            "type": "ContentReference",
-            "types": [
-                {
-                    "allow_group": false,
-                    "allow_new": true,
-                    "body_singular": "Pietje",
-                    "label": "ContentModel",
-                    "position": 1,
-                    "ref": "5766c793-3e31-4a87-bc70-bd14db7e9efe"
-                },
-                {
-                    "allow_group": false,
-                    "allow_new": true,
-                    "body_singular": "Test",
-                    "label": "ContentModel",
-                    "position": 2,
-                    "ref": "548e9829-97f0-48dd-81a0-9730c1f2109a"
-                }
-            ]
-        },
-        {
-            "a_b_testing": true,
-            "allow_multiple": true,
-            "api_id": "stackie",
-            "body": "Stackie",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "max": "1000",
-            "min": "0",
-            "personalization": true,
-            "required": false,
-            "type": "Stack",
-            "types": [
-                {
-                    "allow_group": false,
-                    "allow_new": false,
-                    "api_id": "Aaa",
-                    "label": "Component",
-                    "position": 1,
-                    "ref": "0b65f9be-dcdd-4d37-b1c0-d6fa6250ea4b"
-                },
-                {
-                    "allow_group": false,
-                    "allow_new": true,
-                    "body_singular": "Pietje",
-                    "label": "ContentModel",
-                    "position": 2,
-                    "ref": "5766c793-3e31-4a87-bc70-bd14db7e9efe"
-                }
-            ]
-        },
-        {
-            "api_id": "comp_a",
-            "body": "Component a",
-            "component": {
-                "api_id": "Aaa",
-                "label": "Component",
-                "ref": "0b65f9be-dcdd-4d37-b1c0-d6fa6250ea4b"
-            },
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "framed": true,
-            "required": false,
-            "type": "Component"
-        },
-        {
-            "body": "Slug",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "openai_options": null,
-            "remove_trailing_slash": false,
-            "required": true,
-            "type": "Slug"
+            "appearance": "1",
+            "body": "Columns",
+            "type": "Column"
         }
     ],
     "folder": null,
     "label": "ContentModel",
-    "localization": true,
     "lock_content_item": false,
     "previewing": true,
-    "ref": "e3fee4c2-c7e6-41d9-b5d3-334d1a878b0c",
+    "ref": "212368e2-c213-4c4f-8291-3d2a77caefce",
     "review_urls": null,
     "scheduling": true,
     "schema_version": "2025-04-09",
     "seo_score": true,
     "single_instance": false,
-    "slug": "[{reference.slug}\/]{title}\/{html}",
+    "slug": null,
     "slug_postfix": true,
     "type": "model",
     "versioning": false,

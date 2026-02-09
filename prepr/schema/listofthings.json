@@ -1,6 +1,6 @@
 {
-    "body": "Days",
-    "body_singular": "Days",
+    "body": "List of things",
+    "body_singular": "ListOfThings",
     "enum": [
         {
             "display": "one",
@@ -18,8 +18,7 @@
     "enum_as_string": false,
     "folder": null,
     "label": "ContentModel",
-    "localization": true,
-    "ref": "a3390462-d5c2-45de-a8dd-887e75ac057b",
+    "ref": "6ef6f8e6-31d4-4770-aeb2-d3257987d3b4",
     "schema_version": "2025-04-09",
     "type": "enum"
 }
