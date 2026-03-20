@@ -1,27 +1,11 @@
 {
-    "body": "Asset",
-    "body_singular": "Asset",
     "fields": [
-        {
-            "a_b_testing": false,
-            "api_id": "licentie",
-            "appearance": "single_line",
-            "body": "Licentie",
-            "description": "Testing...",
-            "description_appearance": "placeholder",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "type": "Text",
-            "unique": false
-        },
         {
             "a_b_testing": false,
             "api_id": "copyright",
             "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
             "body": "Copyright",
             "description": "Voer hier de naam van de organisatie in.",
             "description_appearance": "help_text",
@@ -36,8 +20,52 @@
             "unique": false
         },
         {
+            "a_b_testing": false,
+            "api_id": "licentie",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Licentie",
+            "description": "Testing...",
+            "description_appearance": "placeholder",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        },
+        {
             "api_id": "num",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
             "body": "Num",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "required": false,
+            "type": "Integer",
+            "unique": false
+        },
+        {
+            "api_id": "ffdd",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "ffdd",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "required": false,
+            "type": "Integer",
+            "unique": false
+        },
+        {
+            "api_id": "dd",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "dd",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
@@ -46,10 +74,8 @@
             "unique": false
         }
     ],
-    "label": "ContentModel",
+    "label": "Asset",
     "localization": true,
     "ref": "e121c3ae-354e-4695-a84b-bb00b8390f15",
-    "review_urls": null,
-    "schema_version": "2025-04-09",
-    "type": "asset"
+    "schema_version": "2026-03-05"
 }

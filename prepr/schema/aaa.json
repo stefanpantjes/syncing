@@ -1,0 +1,133 @@
+{
+    "api_id": "Aaa",
+    "appearance_image": null,
+    "appearance_tag": null,
+    "body": "Component A",
+    "description": null,
+    "fields": [
+        {
+            "a_b_testing": false,
+            "api_id": "titel",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Titel",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "a_b_testing": false,
+            "api_id": "desc",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "desc",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "generate": "[prepr_ai_generate:titel]nerate a long text based of some of [prepr_ai_generate:@Test.static_component_text_] the following fields which include some text like \"This\" or \"that\".Generate a long text based of some of the following fields which include some text like \"This\" or \"that\".Generate a {@ long text based of some of the following fields which include some text like \"This\" or \"that\".Generate a long  {@ text based of some of the following fields which include some text like \"This\" or \"that\".Generate a long text based of some of the following fields {@ which include some text like \"This\" or \"that\". {@",
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "allow_multiple": true,
+            "api_id": "reference",
+            "appearance": "auto_suggest",
+            "appearance_start_new_row": false,
+            "appearance_width": 75,
+            "body": "Reference",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference"
+        },
+        {
+            "a_b_testing": true,
+            "allow_multiple": true,
+            "api_id": "stack",
+            "body": "stack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Pietje",
+                    "label": "Model",
+                    "position": 1,
+                    "ref": "5766c793-3e31-4a87-bc70-bd14db7e9efe"
+                }
+            ]
+        },
+        {
+            "api_id": "comp_b",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Component B",
+            "component": {
+                "api_id": "ComponentB",
+                "label": "Component",
+                "ref": "b555ccf3-1069-4fc9-b2c7-fab7a97f72b9"
+            },
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "framed": true,
+            "required": false,
+            "type": "Component"
+        },
+        {
+            "a_b_testing": true,
+            "allow_multiple": true,
+            "api_id": "items",
+            "body": "Items",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Pietje",
+                    "label": "Model",
+                    "position": 1,
+                    "ref": "5766c793-3e31-4a87-bc70-bd14db7e9efe"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-compress",
+    "label": "Component",
+    "ref": "0b65f9be-dcdd-4d37-b1c0-d6fa6250ea4b",
+    "schema_version": "2026-03-05"
+}
