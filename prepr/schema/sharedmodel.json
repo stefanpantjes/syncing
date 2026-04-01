@@ -1,112 +1,111 @@
 {
     "appearance_image": null,
     "appearance_tag": null,
-    "body": "Pietje",
-    "body_plural": "Pietjes",
-    "body_singular": "Pietje",
+    "body": "Shared model",
+    "body_plural": "SharedModels",
+    "body_singular": "SharedModel",
     "commenting": false,
     "content_check": true,
     "description": null,
     "engagement_insights": false,
     "fields": [
         {
-            "api_id": "enum",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Enum",
-            "description": null,
-            "description_appearance": "help_text",
-            "enum": {
-                "body_singular": "Days",
-                "label": "Enum",
-                "ref": "a3390462-d5c2-45de-a8dd-887e75ac057b"
-            },
-            "field_state": "read_write",
-            "filterable": "0",
-            "required": false,
-            "type": "Enum"
-        },
-        {
             "a_b_testing": false,
-            "api_id": "items",
+            "api_id": "title",
             "appearance": "single_line",
             "appearance_start_new_row": true,
             "appearance_width": 100,
-            "body": "Tekst",
-            "default_value": "{id}",
-            "description": "Some text",
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "type": "Text",
-            "unique": false
-        },
-        {
-            "a_b_testing": false,
-            "api_id": "titel",
-            "appearance": "single_line",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Titel",
+            "body": "Title",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
             "no_html": false,
             "openai_options": {
+                "generate": "[prepr_ai_generate:description][prepr_ai_generate:description]",
                 "translate": "1"
             },
-            "required": true,
+            "required": false,
+            "seo_title": true,
             "title": true,
             "type": "Text",
             "unique": false
         },
         {
+            "a_b_testing": false,
+            "api_id": "description",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Description",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "api_id": "boolean",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Boolean",
+            "default_value": true,
+            "description": "Is dit waar",
+            "description_appearance": "help_text",
+            "false": "Nee",
+            "field_state": "read_write",
+            "required": false,
+            "true": "Zeker",
+            "type": "Boolean"
+        },
+        {
+            "allow_multiple": true,
+            "api_id": "ref",
+            "appearance": "modal",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "ref",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "SharedModel",
+                    "label": "Model",
+                    "position": 1,
+                    "ref": "e56cad3b-d5b7-4812-bbfc-f1da3bcc193f"
+                }
+            ]
+        },
+        {
+            "api_id": "percentage",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Percentage",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "required": false,
+            "type": "Float",
+            "unique": false
+        },
+        {
             "appearance": "open",
-            "body": "Section",
+            "body": "Sectie",
             "description": null,
             "type": "Divider"
-        },
-        {
-            "a_b_testing": false,
-            "api_id": "authro",
-            "appearance": "single_line",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Auteur",
-            "default_value": "{user.full_name}",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "type": "Text",
-            "unique": false
-        },
-        {
-            "a_b_testing": false,
-            "api_id": "extra",
-            "appearance": "single_line",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Extra",
-            "default_value": "{authro} - {titel} - {enum} & {enum.display}- {gelinkt_op_pagina.title}",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "type": "Text",
-            "unique": false
         },
         {
             "appearance_start_new_row": true,
@@ -116,71 +115,65 @@
             "description_appearance": "help_text",
             "edit_from_slash": false,
             "field_state": "read_write",
+            "max": "512",
             "remove_trailing_slash": false,
             "required": false,
             "type": "Slug"
         },
         {
-            "allow_multiple": true,
-            "api_id": "gelinkt_op_pagina",
-            "appearance": "modal",
             "appearance_start_new_row": true,
             "appearance_width": 100,
-            "body": "gelinkt op pagina",
+            "body": "Embed",
+            "construct": "<script>\n  <p>{title}<\/p>\n<\/script>",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "required": false,
+            "type": "Embed"
+        },
+        {
+            "a_b_testing": true,
+            "allow_multiple": true,
+            "api_id": "stack",
+            "body": "stack",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
             "filterable": true,
-            "group": false,
             "max": "1000",
             "min": "0",
+            "personalization": true,
             "required": false,
-            "type": "ContentReference",
+            "type": "Stack",
             "types": [
                 {
                     "allow_group": false,
                     "allow_new": true,
-                    "body_singular": "Page",
+                    "body_singular": "SharedModel",
                     "label": "Model",
                     "position": 1,
-                    "ref": "e3fee4c2-c7e6-41d9-b5d3-334d1a878b0c"
+                    "ref": "e56cad3b-d5b7-4812-bbfc-f1da3bcc193f"
                 }
             ]
-        },
-        {
-            "appearance": "2",
-            "body": "Columns",
-            "type": "Column"
-        },
-        {
-            "api_id": "component",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Component",
-            "component": {
-                "api_id": "Compc",
-                "label": "Component",
-                "ref": "d67d5ddf-1076-4502-91e9-68e698c34366"
-            },
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "framed": true,
-            "required": false,
-            "type": "Component"
         }
     ],
-    "folder": "test",
+    "folder": null,
     "label": "Model",
     "lock_content_item": false,
-    "previewing": true,
-    "ref": "5766c793-3e31-4a87-bc70-bd14db7e9efe",
-    "review_urls": null,
+    "previewing": false,
+    "ref": "e56cad3b-d5b7-4812-bbfc-f1da3bcc193f",
+    "review_urls": [
+        {
+            "body": "test",
+            "live_preview": "0",
+            "url": "https:\/\/google.nl"
+        }
+    ],
     "scheduling": true,
     "schema_version": "2026-03-05",
     "seo_score": true,
     "single_instance": false,
-    "slug": "{locale}\/{lang}\/{titel}",
+    "slug": "{id}",
     "slug_postfix": true,
     "versioning": false,
     "visible": true,

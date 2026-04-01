@@ -242,6 +242,7 @@
             "description_appearance": "help_text",
             "field_state": "read_write",
             "filterable": false,
+            "group": false,
             "max": "1000",
             "min": "0",
             "required": true,
