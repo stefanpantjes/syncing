@@ -13,6 +13,10 @@
         {
             "display": "three",
             "value": "THREE"
+        },
+        {
+            "display": "four",
+            "value": "FOUR"
         }
     ],
     "enum_as_string": false,
