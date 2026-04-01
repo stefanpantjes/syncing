@@ -31,6 +31,26 @@
         },
         {
             "a_b_testing": false,
+            "api_id": "static_component_text_v2",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "static component text v2",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "a_b_testing": false,
             "api_id": "static_component_text_1",
             "appearance": "single_line",
             "appearance_start_new_row": true,
