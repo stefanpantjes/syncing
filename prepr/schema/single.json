@@ -1,0 +1,62 @@
+{
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
+    "appearance_image": null,
+    "appearance_tag": null,
+    "body": "Single",
+    "body_plural": "Singles",
+    "body_singular": "Single",
+    "commenting": false,
+    "content_check": true,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_multiple": true,
+            "api_id": "config",
+            "body": "config",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Aaa",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "0b65f9be-dcdd-4d37-b1c0-d6fa6250ea4b"
+                }
+            ]
+        }
+    ],
+    "folder": "test",
+    "label": "Model",
+    "lock_content_item": false,
+    "previewing": true,
+    "ref": "e6368bee-bc3f-4593-b5f8-c069aa7042ad",
+    "review_urls": null,
+    "scheduling": true,
+    "schema_version": "2026-03-05",
+    "seo_score": true,
+    "single_instance": true,
+    "slug": null,
+    "slug_postfix": true,
+    "versioning": false,
+    "visible": true,
+    "workflow": true
+}
