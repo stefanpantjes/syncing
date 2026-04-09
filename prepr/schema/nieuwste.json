@@ -105,6 +105,38 @@
             "type": "Text"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_multiple": true,
+            "api_id": "nieuw",
+            "appearance": "modal",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "nieuw",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "group": false,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Empty",
+                    "label": "Model",
+                    "position": 1,
+                    "ref": "6bd0bd59-ca1f-4c9e-be0a-fa16e3759f11"
+                }
+            ]
+        },
+        {
             "a_b_testing": false,
             "ai_avoid_when": null,
             "ai_examples": null,
@@ -153,38 +185,6 @@
             },
             "required": false,
             "type": "ContentIntegration"
-        },
-        {
-            "ai_avoid_when": null,
-            "ai_examples": null,
-            "ai_expected_content": null,
-            "ai_purpose": null,
-            "ai_use_when": null,
-            "allow_multiple": true,
-            "api_id": "nieuw",
-            "appearance": "modal",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "nieuw",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "filterable": true,
-            "group": false,
-            "max": "1000",
-            "min": "0",
-            "required": false,
-            "type": "ContentReference",
-            "types": [
-                {
-                    "allow_group": false,
-                    "allow_new": true,
-                    "body_singular": "Empty",
-                    "label": "Model",
-                    "position": 1,
-                    "ref": "6bd0bd59-ca1f-4c9e-be0a-fa16e3759f11"
-                }
-            ]
         }
     ],
     "folder": null,
