@@ -1,4 +1,8 @@
 {
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
     "api_id": "Compc",
     "appearance_image": null,
     "appearance_tag": null,
@@ -7,6 +11,11 @@
     "fields": [
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "titel",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -25,6 +34,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "andere",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -43,6 +57,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "asdf",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -60,6 +79,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "test",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -78,11 +102,21 @@
             "type": "Text"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "appearance": "1",
             "body": "Columns",
             "type": "Column"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "appearance": "3",
             "body": "Columns",
             "type": "Column"

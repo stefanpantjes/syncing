@@ -1,4 +1,8 @@
 {
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
     "api_id": "ComponentB",
     "appearance_image": null,
     "appearance_tag": null,
@@ -7,6 +11,11 @@
     "fields": [
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "title",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -24,6 +33,11 @@
             "type": "Text"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "reference",
             "appearance": null,
@@ -52,6 +66,11 @@
         },
         {
             "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "stack",
             "body": "stack",
@@ -76,6 +95,11 @@
             ]
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "appearance": "2",
             "body": "Columns",
             "type": "Column"

@@ -1,4 +1,8 @@
 {
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
     "appearance_image": null,
     "appearance_tag": null,
     "body": "Pietje",
@@ -10,6 +14,11 @@
     "engagement_insights": false,
     "fields": [
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "enum",
             "appearance_start_new_row": true,
             "appearance_width": 100,
@@ -28,6 +37,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "items",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -47,6 +61,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "titel",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -65,6 +84,11 @@
             "unique": false
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "appearance": "open",
             "body": "Section",
             "description": null,
@@ -72,6 +96,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "authro",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -91,6 +120,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "extra",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -109,6 +143,11 @@
             "unique": false
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "appearance_start_new_row": true,
             "appearance_width": 100,
             "body": "Slug",
@@ -121,6 +160,11 @@
             "type": "Slug"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "gelinkt_op_pagina",
             "appearance": "modal",
@@ -148,11 +192,21 @@
             ]
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "appearance": "2",
             "body": "Columns",
             "type": "Column"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "component",
             "appearance_start_new_row": true,
             "appearance_width": 100,

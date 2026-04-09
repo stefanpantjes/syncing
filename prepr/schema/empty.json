@@ -1,4 +1,8 @@
 {
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
     "appearance_image": null,
     "appearance_tag": null,
     "body": "Empty",

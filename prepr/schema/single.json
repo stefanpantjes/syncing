@@ -1,4 +1,8 @@
 {
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
     "appearance_image": null,
     "appearance_tag": null,
     "body": "Single",
@@ -11,6 +15,11 @@
     "fields": [
         {
             "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "config",
             "body": "config",

@@ -1,4 +1,8 @@
 {
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
     "api_id": "Aaa",
     "appearance_image": null,
     "appearance_tag": null,
@@ -44,6 +48,11 @@
                 "underline",
                 "unordered-list"
             ],
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_align": false,
             "allow_caption": false,
             "allow_focal_point": false,
@@ -63,6 +72,11 @@
         },
         {
             "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "stack",
             "body": "stack",
@@ -88,6 +102,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "desc",
             "appearance": "single_line",
             "appearance_start_new_row": false,
@@ -105,6 +124,11 @@
             "type": "Text"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "reference",
             "appearance": "auto_suggest",
@@ -123,6 +147,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "titel",
             "appearance": "single_line",
             "appearance_start_new_row": false,
@@ -140,6 +169,11 @@
             "type": "Text"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "comp_b",
             "appearance_start_new_row": true,
             "appearance_width": 100,
@@ -158,6 +192,11 @@
         },
         {
             "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "items",
             "body": "Items",

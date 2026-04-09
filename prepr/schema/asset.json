@@ -2,6 +2,11 @@
     "fields": [
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "copyright",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -21,6 +26,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "licentie",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -38,6 +48,11 @@
             "unique": false
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "num",
             "appearance_start_new_row": true,
             "appearance_width": 100,
@@ -50,6 +65,11 @@
             "unique": false
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "ffdd",
             "appearance_start_new_row": true,
             "appearance_width": 100,
@@ -62,6 +82,11 @@
             "unique": false
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "dd",
             "appearance_start_new_row": true,
             "appearance_width": 100,

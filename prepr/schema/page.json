@@ -1,4 +1,8 @@
 {
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
     "appearance_image": null,
     "appearance_tag": null,
     "body": "Page",
@@ -11,6 +15,11 @@
     "fields": [
         {
             "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "title",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -49,6 +58,11 @@
                 "table",
                 "alignment"
             ],
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "html",
             "appearance": "html_editor",
             "appearance_start_new_row": true,
@@ -104,6 +118,11 @@
                 "underline",
                 "unordered-list"
             ],
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_align": false,
             "allow_caption": false,
             "allow_focal_point": false,
@@ -122,6 +141,11 @@
             "types": []
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "appearance_start_new_row": true,
             "appearance_width": 75,
             "body": "Slug",
@@ -136,6 +160,11 @@
         },
         {
             "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "stack",
             "body": "stack",
@@ -160,6 +189,11 @@
             ]
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "componentje_a",
             "appearance_start_new_row": false,
             "appearance_width": 25,
@@ -177,6 +211,11 @@
             "type": "Component"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "ccc",
             "appearance_start_new_row": true,
             "appearance_width": 100,
@@ -194,6 +233,11 @@
             "type": "Component"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "lijstje",
             "appearance_start_new_row": true,
             "appearance_width": 100,
@@ -211,6 +255,11 @@
             "type": "Enum"
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "date",
             "appearance": "date",
             "appearance_start_new_row": true,
@@ -225,6 +274,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "test",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -244,6 +298,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "sdfgsdgf",
             "appearance": "single_line",
             "appearance_start_new_row": true,
@@ -262,6 +321,11 @@
             "unique": false
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "allow_multiple": true,
             "api_id": "reference",
             "appearance": "modal",
@@ -289,6 +353,11 @@
             ]
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "appearance": "default",
             "appearance_start_new_row": false,
             "appearance_width": 25,
@@ -301,6 +370,11 @@
         },
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "adsfgh",
             "appearance": "single_line",
             "appearance_start_new_row": false,

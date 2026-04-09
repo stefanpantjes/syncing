@@ -4,6 +4,11 @@
     "fields": [
         {
             "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
             "api_id": "sku",
             "appearance": "single_line",
             "appearance_start_new_row": true,
