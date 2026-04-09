@@ -44,6 +44,30 @@
             ]
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_multiple": true,
+            "api_id": "propeller",
+            "appearance_start_new_row": false,
+            "appearance_width": 67,
+            "body": "Propeller",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "remote_source": {
+                "body_singular": "Propeller",
+                "label": "RemoteSource",
+                "ref": "764954e6-edd8-4c3d-8c3b-b9ef34ae58df"
+            },
+            "required": false,
+            "type": "ContentIntegration"
+        },
+        {
             "a_b_testing": false,
             "accept": [
                 "H1",
@@ -161,30 +185,6 @@
             "title": true,
             "type": "Text",
             "unique": false
-        },
-        {
-            "ai_avoid_when": null,
-            "ai_examples": null,
-            "ai_expected_content": null,
-            "ai_purpose": null,
-            "ai_use_when": null,
-            "allow_multiple": true,
-            "api_id": "propeller",
-            "appearance_start_new_row": false,
-            "appearance_width": 67,
-            "body": "Propeller",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "max": "1000",
-            "min": "0",
-            "remote_source": {
-                "body_singular": "Propeller",
-                "label": "RemoteSource",
-                "ref": "764954e6-edd8-4c3d-8c3b-b9ef34ae58df"
-            },
-            "required": false,
-            "type": "ContentIntegration"
         }
     ],
     "folder": null,
