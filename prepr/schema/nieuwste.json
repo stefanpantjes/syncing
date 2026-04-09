@@ -45,29 +45,6 @@
         },
         {
             "a_b_testing": false,
-            "ai_avoid_when": null,
-            "ai_examples": null,
-            "ai_expected_content": null,
-            "ai_purpose": null,
-            "ai_use_when": null,
-            "api_id": "textarea",
-            "appearance": "textarea",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Textarea",
-            "default_value": "{html}",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "type": "Text"
-        },
-        {
-            "a_b_testing": false,
             "accept": [
                 "H1",
                 "H2",
@@ -94,6 +71,29 @@
             "appearance_start_new_row": true,
             "appearance_width": 100,
             "body": "HTML",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "textarea",
+            "appearance": "textarea",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Textarea",
+            "default_value": "{html}",
             "description": null,
             "description_appearance": "help_text",
             "field_state": "read_write",
