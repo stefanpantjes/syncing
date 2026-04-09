@@ -10,6 +10,31 @@
     "engagement_insights": false,
     "fields": [
         {
+            "a_b_testing": true,
+            "allow_multiple": true,
+            "api_id": "test",
+            "body": "test",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Compc",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "d67d5ddf-1076-4502-91e9-68e698c34366"
+                }
+            ]
+        },
+        {
             "a_b_testing": false,
             "api_id": "title",
             "appearance": "single_line",
@@ -107,6 +132,25 @@
             },
             "required": false,
             "type": "Text"
+        },
+        {
+            "allow_multiple": true,
+            "api_id": "propeller",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Propeller",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "remote_source": {
+                "body_singular": "Propeller",
+                "label": "RemoteSource",
+                "ref": "764954e6-edd8-4c3d-8c3b-b9ef34ae58df"
+            },
+            "required": false,
+            "type": "ContentIntegration"
         }
     ],
     "folder": null,

@@ -123,7 +123,7 @@
         },
         {
             "appearance_start_new_row": true,
-            "appearance_width": 25,
+            "appearance_width": 75,
             "body": "Slug",
             "description": null,
             "description_appearance": "help_text",
@@ -192,6 +192,36 @@
             "framed": false,
             "required": false,
             "type": "Component"
+        },
+        {
+            "api_id": "lijstje",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "lijstje",
+            "description": null,
+            "description_appearance": "help_text",
+            "enum": {
+                "body_singular": "Days",
+                "label": "Enum",
+                "ref": "a3390462-d5c2-45de-a8dd-887e75ac057b"
+            },
+            "field_state": "read_write",
+            "filterable": "1",
+            "required": false,
+            "type": "Enum"
+        },
+        {
+            "api_id": "date",
+            "appearance": "date",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "date",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "format": "Y-m-d",
+            "required": false,
+            "type": "DateTime"
         },
         {
             "a_b_testing": false,
