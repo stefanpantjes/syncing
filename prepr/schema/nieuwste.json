@@ -171,7 +171,7 @@
             "allow_multiple": true,
             "api_id": "propeller",
             "appearance_start_new_row": false,
-            "appearance_width": 50,
+            "appearance_width": 75,
             "body": "Propeller",
             "description": null,
             "description_appearance": "help_text",
