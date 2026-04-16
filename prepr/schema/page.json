@@ -80,6 +80,155 @@
             "unique": false
         },
         {
+            "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_multiple": true,
+            "api_id": "stack",
+            "body": "stack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": "1",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Compc",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "d67d5ddf-1076-4502-91e9-68e698c34366"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Aaa",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "0b65f9be-dcdd-4d37-b1c0-d6fa6250ea4b"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ComponentB",
+                    "label": "Component",
+                    "position": 3,
+                    "ref": "b555ccf3-1069-4fc9-b2c7-fab7a97f72b9"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ComponentBCopy",
+                    "label": "Component",
+                    "position": 4,
+                    "ref": "8e8c9b94-0a77-40f0-acf8-135d163de725"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Empty",
+                    "label": "Model",
+                    "position": 5,
+                    "ref": "6bd0bd59-ca1f-4c9e-be0a-fa16e3759f11"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Nieuwste",
+                    "label": "Model",
+                    "position": 6,
+                    "ref": "ead9d663-7297-4a4b-a0cd-2adb91d333cd"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Page",
+                    "label": "Model",
+                    "position": 7,
+                    "ref": "e3fee4c2-c7e6-41d9-b5d3-334d1a878b0c"
+                }
+            ]
+        },
+        {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_multiple": true,
+            "api_id": "reference",
+            "appearance": "modal",
+            "appearance_start_new_row": true,
+            "appearance_width": 50,
+            "body": "Reference",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": "1",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Nieuwste",
+                    "label": "Model",
+                    "position": 1,
+                    "ref": "ead9d663-7297-4a4b-a0cd-2adb91d333cd"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Empty",
+                    "label": "Model",
+                    "position": 2,
+                    "ref": "6bd0bd59-ca1f-4c9e-be0a-fa16e3759f11"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Page",
+                    "label": "Model",
+                    "position": 3,
+                    "ref": "e3fee4c2-c7e6-41d9-b5d3-334d1a878b0c"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Pietje",
+                    "label": "Model",
+                    "position": 4,
+                    "ref": "5766c793-3e31-4a87-bc70-bd14db7e9efe"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "SharedModel",
+                    "label": "Model",
+                    "position": 5,
+                    "ref": "e56cad3b-d5b7-4812-bbfc-f1da3bcc193f"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Single",
+                    "label": "Model",
+                    "position": 6,
+                    "ref": "e6368bee-bc3f-4593-b5f8-c069aa7042ad"
+                }
+            ]
+        },
+        {
             "accept": [
                 "ApplePodcast",
                 "Asset",
@@ -157,36 +306,6 @@
             "remove_trailing_slash": false,
             "required": true,
             "type": "Slug"
-        },
-        {
-            "a_b_testing": true,
-            "ai_avoid_when": null,
-            "ai_examples": null,
-            "ai_expected_content": null,
-            "ai_purpose": null,
-            "ai_use_when": null,
-            "allow_multiple": true,
-            "api_id": "stack",
-            "body": "stack",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "filterable": true,
-            "max": "1000",
-            "min": "0",
-            "personalization": true,
-            "required": false,
-            "type": "Stack",
-            "types": [
-                {
-                    "allow_group": false,
-                    "allow_new": false,
-                    "api_id": "Compc",
-                    "label": "Component",
-                    "position": 1,
-                    "ref": "d67d5ddf-1076-4502-91e9-68e698c34366"
-                }
-            ]
         },
         {
             "ai_avoid_when": null,
@@ -319,38 +438,6 @@
             "required": false,
             "type": "Text",
             "unique": false
-        },
-        {
-            "ai_avoid_when": null,
-            "ai_examples": null,
-            "ai_expected_content": null,
-            "ai_purpose": null,
-            "ai_use_when": null,
-            "allow_multiple": true,
-            "api_id": "reference",
-            "appearance": "modal",
-            "appearance_start_new_row": true,
-            "appearance_width": 50,
-            "body": "Reference",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "filterable": false,
-            "group": false,
-            "max": "1000",
-            "min": "0",
-            "required": true,
-            "type": "ContentReference",
-            "types": [
-                {
-                    "allow_group": false,
-                    "allow_new": true,
-                    "body_singular": "Nieuwste",
-                    "label": "Model",
-                    "position": 1,
-                    "ref": "ead9d663-7297-4a4b-a0cd-2adb91d333cd"
-                }
-            ]
         },
         {
             "ai_avoid_when": null,

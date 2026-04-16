@@ -14,6 +14,79 @@
     "engagement_insights": false,
     "fields": [
         {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Title",
+            "default_value": "{html}",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "testing",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "testing",
+            "default_value": "{title} lala",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "textarea",
+            "appearance": "textarea",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Textarea",
+            "default_value": "{title} lala",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
             "a_b_testing": true,
             "ai_avoid_when": null,
             "ai_examples": null,
@@ -106,29 +179,6 @@
             "type": "Text"
         },
         {
-            "a_b_testing": false,
-            "ai_avoid_when": null,
-            "ai_examples": null,
-            "ai_expected_content": null,
-            "ai_purpose": null,
-            "ai_use_when": null,
-            "api_id": "textarea",
-            "appearance": "textarea",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Textarea",
-            "default_value": "{html}",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "type": "Text"
-        },
-        {
             "ai_avoid_when": null,
             "ai_examples": null,
             "ai_expected_content": null,
@@ -144,7 +194,6 @@
             "description_appearance": "help_text",
             "field_state": "read_write",
             "filterable": true,
-            "group": false,
             "max": "1000",
             "min": "0",
             "required": false,
@@ -157,34 +206,48 @@
                     "label": "Model",
                     "position": 1,
                     "ref": "6bd0bd59-ca1f-4c9e-be0a-fa16e3759f11"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Nieuwste",
+                    "label": "Model",
+                    "position": 2,
+                    "ref": "ead9d663-7297-4a4b-a0cd-2adb91d333cd"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Page",
+                    "label": "Model",
+                    "position": 3,
+                    "ref": "e3fee4c2-c7e6-41d9-b5d3-334d1a878b0c"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Pietje",
+                    "label": "Model",
+                    "position": 4,
+                    "ref": "5766c793-3e31-4a87-bc70-bd14db7e9efe"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "SharedModel",
+                    "label": "Model",
+                    "position": 5,
+                    "ref": "e56cad3b-d5b7-4812-bbfc-f1da3bcc193f"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Single",
+                    "label": "Model",
+                    "position": 6,
+                    "ref": "e6368bee-bc3f-4593-b5f8-c069aa7042ad"
                 }
             ]
-        },
-        {
-            "a_b_testing": false,
-            "ai_avoid_when": null,
-            "ai_examples": null,
-            "ai_expected_content": null,
-            "ai_purpose": null,
-            "ai_use_when": null,
-            "api_id": "title",
-            "appearance": "single_line",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Title",
-            "default_value": "{html}",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
-            "seo_title": true,
-            "title": true,
-            "type": "Text",
-            "unique": false
         }
     ],
     "folder": null,
