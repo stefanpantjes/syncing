@@ -25,6 +25,23 @@
             "unique": false
         },
         {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "num",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Num",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "required": false,
+            "type": "Integer",
+            "unique": false
+        },
+        {
             "a_b_testing": false,
             "ai_avoid_when": null,
             "ai_examples": null,
@@ -45,23 +62,6 @@
             },
             "required": false,
             "type": "Text",
-            "unique": false
-        },
-        {
-            "ai_avoid_when": null,
-            "ai_examples": null,
-            "ai_expected_content": null,
-            "ai_purpose": null,
-            "ai_use_when": null,
-            "api_id": "num",
-            "appearance_start_new_row": true,
-            "appearance_width": 100,
-            "body": "Num",
-            "description": null,
-            "description_appearance": "help_text",
-            "field_state": "read_write",
-            "required": false,
-            "type": "Integer",
             "unique": false
         },
         {
