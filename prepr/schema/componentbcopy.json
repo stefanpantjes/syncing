@@ -3,10 +3,10 @@
     "ai_examples": null,
     "ai_goal": null,
     "ai_usage_rules": null,
-    "api_id": "ComponentB",
+    "api_id": "ComponentBCopy",
     "appearance_image": null,
     "appearance_tag": null,
-    "body": "Component B",
+    "body": "Component B (copy)",
     "description": null,
     "fields": [
         {
@@ -108,6 +108,6 @@
     "folder": null,
     "icon": "fas fa-compress",
     "label": "Component",
-    "ref": "b555ccf3-1069-4fc9-b2c7-fab7a97f72b9",
+    "ref": "8e8c9b94-0a77-40f0-acf8-135d163de725",
     "schema_version": "2026-03-05"
 }

@@ -1,0 +1,42 @@
+{
+    "body": "Propeller",
+    "body_singular": "Propeller",
+    "fields": [
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "sku",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "SKU",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_only",
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "source_id": "sku",
+            "type": "Text"
+        }
+    ],
+    "label": "RemoteSource",
+    "ref": "764954e6-edd8-4c3d-8c3b-b9ef34ae58df",
+    "remote_source_active": true,
+    "remote_source_button_text": "Product",
+    "remote_source_domains": [
+        "media.helice.cloud"
+    ],
+    "remote_source_headers": {
+        "X-Propeller-Access-Token": "smwDzpJjxNjh7P1UyGVp5W3WRaP89A9TSWYENS9A1ZlWB3B4"
+    },
+    "remote_source_icon": "fa-bag-shopping-plus",
+    "remote_source_last_sync": 0,
+    "remote_source_sync": false,
+    "remote_source_url": "https:\/\/commerce.prepr.it\/api\/remote_source\/propeller",
+    "schema_version": "2026-03-05"
+}
