@@ -1,0 +1,118 @@
+{
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
+    "api_id": "NewComponentje2",
+    "appearance_image": null,
+    "appearance_tag": null,
+    "body": "New componentje #2",
+    "description": null,
+    "fields": [
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "andere_titel",
+            "appearance": "single_line",
+            "appearance_conditions": [],
+            "appearance_start_new_row": false,
+            "appearance_width": 50,
+            "body": "Andere titel",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "custom_prompting": 0,
+                "translate": 1
+            },
+            "required": false,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "appearance": "open",
+            "body": "Sectie #2",
+            "description": null,
+            "type": "Divider"
+        },
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "text",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Text",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "custom_prompting": 0,
+                "translate": 1
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_multiple": true,
+            "api_id": "component_2_stack",
+            "body": "component 2 stack",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": 1000,
+            "min": 0,
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "allowed_environments": [
+                        "current_env"
+                    ],
+                    "body_singular": "NewestModel",
+                    "label": "Model",
+                    "position": 1,
+                    "ref": "1250ccb4-f187-44f7-8dc2-a2d601c99721"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Component3",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "d06c442a-f3d7-46b5-8425-4de41bd14a3f"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-compress",
+    "label": "Component",
+    "ref": "79b2cbc6-678e-4957-8b61-94108e79fe2a",
+    "schema_version": "2026-03-05"
+}

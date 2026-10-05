@@ -1,0 +1,31 @@
+{
+    "body": "Other enum",
+    "body_singular": "OtherEnum",
+    "enum": [
+        {
+            "display": "Test 1",
+            "value": "TEST_1"
+        },
+        {
+            "display": "Test 2",
+            "value": "TEST_2"
+        },
+        {
+            "display": "Test 3",
+            "value": "TEST_3"
+        },
+        {
+            "display": "Test 4",
+            "value": "TEST_4"
+        },
+        {
+            "display": "Test 5",
+            "value": "TEST_5"
+        }
+    ],
+    "enum_as_string": false,
+    "folder": null,
+    "label": "Enum",
+    "ref": "749cb3ae-b782-42ab-9d5b-3ab04513894e",
+    "schema_version": "2026-03-05"
+}

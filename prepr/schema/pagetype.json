@@ -1,0 +1,23 @@
+{
+    "body": "Page type",
+    "body_singular": "PageType",
+    "enum": [
+        {
+            "display": "home",
+            "value": "HOME"
+        },
+        {
+            "display": "features",
+            "value": "FEATURES"
+        },
+        {
+            "display": "pricing",
+            "value": "PRICING"
+        }
+    ],
+    "enum_as_string": false,
+    "folder": null,
+    "label": "Enum",
+    "ref": "a80ecd86-7241-40ee-9338-46f507774c00",
+    "schema_version": "2026-03-05"
+}

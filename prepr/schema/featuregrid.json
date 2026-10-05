@@ -1,0 +1,70 @@
+{
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
+    "api_id": "FeatureGrid",
+    "appearance_image": null,
+    "appearance_tag": null,
+    "body": "Feature Grid",
+    "description": null,
+    "fields": [
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "title",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "custom_prompting": 0,
+                "translate": 1
+            },
+            "required": false,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_multiple": true,
+            "api_id": "features",
+            "body": "Features",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Feature",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "ac40f8e8-cbfa-459e-af25-100e827897a1"
+                }
+            ]
+        }
+    ],
+    "folder": "WIP",
+    "icon": "fas fa-compress",
+    "label": "Component",
+    "ref": "4109c1ea-10ef-4bb1-89f3-23b3d29c2829",
+    "schema_version": "2026-03-05"
+}
