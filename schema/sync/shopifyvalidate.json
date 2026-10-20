@@ -1,0 +1,21 @@
+{
+    "body": "ShopifyValidate",
+    "body_singular": "ShopifyValidate",
+    "fields": null,
+    "label": "RemoteSource",
+    "ref": "e3d91995-9993-499f-9796-4b8c17a3a103",
+    "remote_source_active": true,
+    "remote_source_button_text": "Add product",
+    "remote_source_domains": [
+        "cdn.shopify.com"
+    ],
+    "remote_source_headers": {
+        "X-Shopify-Storefront-Access-Token": "0049787b3fa7b4410889709907d81d7d",
+        "X-Shopify-Storefront-Domain": "prepr-baking.myshopify.com"
+    },
+    "remote_source_icon": "fab fa-shopify",
+    "remote_source_last_sync": 0,
+    "remote_source_sync": false,
+    "remote_source_url": "https:\/\/commerce.prepr.it\/api\/remote_source\/shopify",
+    "schema_version": "2026-03-05"
+}

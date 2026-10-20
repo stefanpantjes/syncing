@@ -1,0 +1,21 @@
+{
+    "body": "Shopify Burnhard",
+    "body_singular": "ShopifyBurnhard",
+    "fields": null,
+    "label": "RemoteSource",
+    "ref": "c0e19ded-ab36-4572-bb18-cbf3edce8c2b",
+    "remote_source_active": false,
+    "remote_source_button_text": "Add product",
+    "remote_source_domains": [
+        "cdn.shopify.com"
+    ],
+    "remote_source_headers": {
+        "X-Shopify-Storefront-Access-Token": "a95d2745f0502c0e3e7ba72951d90ff5",
+        "X-Shopify-Storefront-Domain": "burnhard-stage.myshopify.com"
+    },
+    "remote_source_icon": "fas fa-cart-shopping-fast",
+    "remote_source_last_sync": 0,
+    "remote_source_sync": false,
+    "remote_source_url": "http:\/\/ts-egress-davy-macbook-pro.tailscale:7400\/api\/remote_source\/shopify",
+    "schema_version": "2026-03-05"
+}

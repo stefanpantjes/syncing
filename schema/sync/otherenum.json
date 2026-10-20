@@ -1,0 +1,15 @@
+{
+    "body": "Other enum",
+    "body_singular": "OtherEnum",
+    "enum": [
+        {
+            "display": "two-something",
+            "value": "two-something"
+        }
+    ],
+    "enum_as_string": false,
+    "folder": null,
+    "label": "Enum",
+    "ref": "5d77256a-f484-44c3-8fe0-44dc582b6114",
+    "schema_version": "2026-03-05"
+}

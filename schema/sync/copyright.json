@@ -1,0 +1,25 @@
+{
+    "body": "Copyright",
+    "body_singular": "Copyright",
+    "enum": [
+        {
+            "display": "Client",
+            "value": "CLIENT"
+        },
+        {
+            "display": "Agency",
+            "value": "AGENCY"
+        },
+        {
+            "$order": "3",
+            "display": "None",
+            "hidden": "1",
+            "value": "NONE"
+        }
+    ],
+    "enum_as_string": false,
+    "folder": null,
+    "label": "Enum",
+    "ref": "3ea85eea-4de0-401b-a032-90becac2257e",
+    "schema_version": "2026-03-05"
+}

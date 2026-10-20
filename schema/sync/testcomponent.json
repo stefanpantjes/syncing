@@ -1,0 +1,178 @@
+{
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
+    "api_id": "TestComponent",
+    "appearance_image": null,
+    "appearance_tag": null,
+    "body": "TestComponent",
+    "description": null,
+    "fields": [
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "summary",
+            "appearance": "textarea",
+            "appearance_conditions": [
+                {
+                    "field": "title",
+                    "filled": false,
+                    "type": "Text"
+                }
+            ],
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "Summary",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "Code",
+                "Coordinates",
+                "H1",
+                "H2",
+                "H3",
+                "H4",
+                "H5",
+                "H6",
+                "Heading",
+                "Html",
+                "HubSpotEmbed",
+                "NavigationItem",
+                "Paragraph",
+                "Quote",
+                "Resource",
+                "TextArea",
+                "alignment",
+                "bold",
+                "italic",
+                "link",
+                "ordered-list",
+                "subscript",
+                "superscript",
+                "table",
+                "underline",
+                "unordered-list"
+            ],
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_align": false,
+            "allow_caption": false,
+            "allow_focal_point": false,
+            "api_id": "dynamic",
+            "body": "Dynamic",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "focal_point_required": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "presets_change_required": false,
+            "required": false,
+            "type": "ElementBox",
+            "types": [
+                {
+                    "body_singular": "Cars",
+                    "label": "RemoteSource",
+                    "ref": "91692e97-21f6-4a88-8633-5e51b1d2e74b"
+                },
+                {
+                    "body_singular": "OpenAIFakeRemoteSource",
+                    "label": "RemoteSource",
+                    "ref": "8e57d5b6-755a-424a-b62c-f4a5816ca6e1"
+                },
+                {
+                    "body_singular": "PreprExampleShop",
+                    "label": "RemoteSource",
+                    "ref": "7fc15f9d-7829-4dce-918e-4a8f49834a0b"
+                },
+                {
+                    "body_singular": "Shopify",
+                    "label": "RemoteSource",
+                    "ref": "60d9e8cb-4f2c-49a1-8216-4b37ecc0299d"
+                },
+                {
+                    "body_singular": "ShopifyBurnhard",
+                    "label": "RemoteSource",
+                    "ref": "c0e19ded-ab36-4572-bb18-cbf3edce8c2b"
+                },
+                {
+                    "body_singular": "ShopifyValidate",
+                    "label": "RemoteSource",
+                    "ref": "e3d91995-9993-499f-9796-4b8c17a3a103"
+                },
+                {
+                    "body_singular": "Typeform",
+                    "label": "RemoteSource",
+                    "ref": "c8ca96a6-79d4-4b82-b7aa-652bd54137eb"
+                }
+            ]
+        },
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "appearance_start_new_row": false,
+            "appearance_width": 33,
+            "body": "Title",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": true,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "keywords",
+            "appearance": null,
+            "appearance_start_new_row": false,
+            "appearance_width": 33,
+            "body": "Keywords",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "max": 2,
+            "min": 0,
+            "required": false,
+            "type": "Tags"
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-compress",
+    "label": "Component",
+    "ref": "4e547bb3-1947-4975-ac36-6c826474eed5",
+    "schema_version": "2026-03-05"
+}

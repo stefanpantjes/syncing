@@ -1,0 +1,93 @@
+{
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
+    "api_id": "Compi",
+    "appearance_image": null,
+    "appearance_tag": null,
+    "body": "compi",
+    "description": null,
+    "fields": [
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "first",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "first",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "photo",
+                "video",
+                "audio",
+                "file"
+            ],
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_align": false,
+            "allow_caption": false,
+            "allow_focal_point": false,
+            "allow_multiple": true,
+            "api_id": "second",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "second",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "focal_point_required": false,
+            "max": 1000,
+            "min": 0,
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        },
+        {
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "next",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "next",
+            "description": null,
+            "description_appearance": "help_text",
+            "enum": {
+                "body_singular": "Copyright",
+                "label": "Enum",
+                "ref": "3ea85eea-4de0-401b-a032-90becac2257e"
+            },
+            "field_state": "read_write",
+            "filterable": true,
+            "required": false,
+            "type": "Enum"
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-compress",
+    "label": "Component",
+    "ref": "3a73dc95-f744-443f-8d58-e635e5e1f11a",
+    "schema_version": "2026-03-05"
+}

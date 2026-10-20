@@ -1,0 +1,33 @@
+{
+    "fields": [
+        {
+            "a_b_testing": false,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "api_id": "verplicht",
+            "appearance": "single_line",
+            "appearance_start_new_row": true,
+            "appearance_width": 100,
+            "body": "verplicht",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "custom_prompting": 1,
+                "generate": "Write concise alt text that summarizes the image for accessibility. Describe only essential, clearly visible information. Keep it under 125 characters. No speculation. Output only the alt text.",
+                "translate": 1
+            },
+            "required": true,
+            "type": "Text",
+            "unique": false
+        }
+    ],
+    "label": "Asset",
+    "localization": true,
+    "ref": "8f207b8c-9f13-4933-99fe-59339f7f6361",
+    "schema_version": "2026-03-05"
+}

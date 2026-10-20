@@ -1,0 +1,19 @@
+{
+    "body": "New enum",
+    "body_singular": "NewEnum",
+    "enum": [
+        {
+            "display": "One",
+            "value": "ONE"
+        },
+        {
+            "display": "Two",
+            "value": "TWO"
+        }
+    ],
+    "enum_as_string": false,
+    "folder": null,
+    "label": "Enum",
+    "ref": "a7ef1b8b-ab0b-4437-8716-bf80e276d2e9",
+    "schema_version": "2026-03-05"
+}

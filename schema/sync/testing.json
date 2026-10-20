@@ -1,0 +1,16 @@
+{
+    "body": "Testing",
+    "body_singular": "Testing",
+    "fields": null,
+    "label": "RemoteSource",
+    "ref": "d727473f-5b73-4d5b-a0e5-dfba86f1bcfe",
+    "remote_source_active": false,
+    "remote_source_button_text": "Open",
+    "remote_source_domains": null,
+    "remote_source_headers": null,
+    "remote_source_icon": "fas fa-image",
+    "remote_source_last_sync": 0,
+    "remote_source_sync": false,
+    "remote_source_url": "https:\/\/openai.prepr.it\/api\/fake_remote_source\/cars",
+    "schema_version": "2026-03-05"
+}

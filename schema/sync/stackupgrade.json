@@ -1,0 +1,55 @@
+{
+    "ai_context": null,
+    "ai_examples": null,
+    "ai_goal": null,
+    "ai_usage_rules": null,
+    "api_id": "StackUpgrade",
+    "appearance_image": "https:\/\/3ir0ohplwn6z.b-cdn.net\/2httnlqjyl65\/w_1920\/gemini-generated-image-b0vxo2b0vxo2b0vx.jpg",
+    "appearance_tag": null,
+    "body": "StackUpgrade",
+    "description": null,
+    "fields": [
+        {
+            "a_b_testing": true,
+            "ai_avoid_when": null,
+            "ai_examples": null,
+            "ai_expected_content": null,
+            "ai_purpose": null,
+            "ai_use_when": null,
+            "allow_multiple": true,
+            "api_id": "reference",
+            "body": "reference",
+            "description": null,
+            "description_appearance": "help_text",
+            "field_state": "read_write",
+            "filterable": true,
+            "max": 1000,
+            "min": 0,
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Article",
+                    "label": "Model",
+                    "position": 1,
+                    "ref": "b627d369-1912-4d40-bb3b-119d54b3fe64",
+                    "restrict_to_user_access": false
+                },
+                {
+                    "api_id": "Compi",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "3a73dc95-f744-443f-8d58-e635e5e1f11a"
+                }
+            ]
+        }
+    ],
+    "folder": null,
+    "icon": "fas fa-compress",
+    "label": "Component",
+    "ref": "7c729aa6-87c9-4bf3-b9ea-015cb9189d43",
+    "schema_version": "2026-03-05"
+}

@@ -1,0 +1,20 @@
+{
+    "body": "Propeller",
+    "body_singular": "Propeller",
+    "fields": null,
+    "label": "RemoteSource",
+    "ref": "10b945df-71db-47de-ac42-6154e286a69b",
+    "remote_source_active": true,
+    "remote_source_button_text": "Product",
+    "remote_source_domains": [
+        "media.helice.cloud"
+    ],
+    "remote_source_headers": {
+        "X-Propeller-Access-Token": "smwDzpJjxNjh7P1UyGVp5W3WRaP89A9TSWYENS9A1ZlWB3B4"
+    },
+    "remote_source_icon": "fa-bag-shopping-plus",
+    "remote_source_last_sync": 0,
+    "remote_source_sync": false,
+    "remote_source_url": "https:\/\/commerce.prepr.it\/api\/remote_source\/propeller",
+    "schema_version": "2026-03-05"
+}
