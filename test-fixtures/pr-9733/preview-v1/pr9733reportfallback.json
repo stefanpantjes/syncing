@@ -4,14 +4,14 @@
   "body": "Pr9733ReportFallback",
   "body_singular": "Pr9733ReportFallback",
   "body_plural": "Pr9733ReportFallbacks",
+  "type": "model",
   "fields": [
     {
       "type": "Text",
       "body": "Title",
       "api_id": "title",
       "appearance": "single_line",
-      "required": true,
-      "no_html": false
+      "required": true
     },
     {
       "type": "ElementBox",

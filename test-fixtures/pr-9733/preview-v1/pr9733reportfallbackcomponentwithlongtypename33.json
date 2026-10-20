@@ -10,8 +10,7 @@
       "body": "Text",
       "api_id": "text",
       "appearance": "single_line",
-      "required": false,
-      "no_html": false
+      "required": false
     }
   ],
   "schema_version": "2026-03-05"

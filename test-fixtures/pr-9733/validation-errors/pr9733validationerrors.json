@@ -4,6 +4,7 @@
   "body": "Pr9733ValidationErrors",
   "body_singular": "Pr9733ValidationErrors",
   "body_plural": "Pr9733ValidationErrorss",
+  "type": "model",
   "fields": [
     {
       "type": "Asset",
