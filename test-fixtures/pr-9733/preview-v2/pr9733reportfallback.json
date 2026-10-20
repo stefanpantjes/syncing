@@ -1,0 +1,264 @@
+{
+  "label": "Model",
+  "ref": "320c6db8-5034-5571-a5f0-138bcb8f5ea7",
+  "body": "Pr9733ReportFallback",
+  "body_singular": "Pr9733ReportFallback",
+  "body_plural": "Pr9733ReportFallbacks",
+  "type": "model",
+  "fields": [
+    {
+      "type": "Text",
+      "body": "Title",
+      "api_id": "title",
+      "appearance": "single_line",
+      "required": true
+    },
+    {
+      "type": "ElementBox",
+      "body": "Content",
+      "api_id": "content",
+      "required": false,
+      "accept": [
+        "Paragraph"
+      ],
+      "types": [
+        {
+          "label": "Component",
+          "ref": "5cd23efe-c844-50d6-ae58-1b38faef6b6b",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName02"
+        },
+        {
+          "label": "Component",
+          "ref": "9f9c0fea-49fa-56c2-9a75-05875d28123c",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName03"
+        },
+        {
+          "label": "Component",
+          "ref": "7baca962-178a-525c-bbc8-0afeada5824e",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName04"
+        },
+        {
+          "label": "Component",
+          "ref": "8492bebd-5ffc-5862-811d-f80e0c41612a",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName05"
+        },
+        {
+          "label": "Component",
+          "ref": "119bbae8-1289-5d09-b142-0084e1112800",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName06"
+        },
+        {
+          "label": "Component",
+          "ref": "16e5b38e-c614-5737-ad29-3fdb32377240",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName07"
+        },
+        {
+          "label": "Component",
+          "ref": "e0f3c8ad-ed7b-5ef7-a794-ee68fb4fed36",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName08"
+        },
+        {
+          "label": "Component",
+          "ref": "11e01945-7968-5734-8fc3-7cd2be017278",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName09"
+        },
+        {
+          "label": "Component",
+          "ref": "532af92e-428f-5f50-b19e-3a3d76b74008",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName10"
+        },
+        {
+          "label": "Component",
+          "ref": "47bd8273-44e0-5588-a46b-42bbfb250718",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName11"
+        },
+        {
+          "label": "Component",
+          "ref": "a058b652-5ca0-5eeb-975d-1f9b8ae4edbc",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName12"
+        },
+        {
+          "label": "Component",
+          "ref": "0da26ae6-7ae6-5f88-a6a9-1dfb714d6d77",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName13"
+        },
+        {
+          "label": "Component",
+          "ref": "ff379356-d3de-5694-9d90-5d75550829b9",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName14"
+        },
+        {
+          "label": "Component",
+          "ref": "43b2d76f-fb78-5070-90fa-d677ac1c20bd",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName15"
+        },
+        {
+          "label": "Component",
+          "ref": "6d81f040-4c2f-52d8-8447-dc5fd93a2de8",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName16"
+        },
+        {
+          "label": "Component",
+          "ref": "61f9a602-40b5-53ff-becc-9c9fff75bb08",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName17"
+        },
+        {
+          "label": "Component",
+          "ref": "12891041-4a97-59ba-b59a-d637fc8346a5",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName18"
+        },
+        {
+          "label": "Component",
+          "ref": "c402abb4-de9a-5e4d-aa9b-529c76248b06",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName19"
+        },
+        {
+          "label": "Component",
+          "ref": "f8db7cfb-f3d7-5916-979d-12b8b5ed940d",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName20"
+        },
+        {
+          "label": "Component",
+          "ref": "c1b663b2-4791-5db0-8051-9afe22959dac",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName21"
+        },
+        {
+          "label": "Component",
+          "ref": "c1856801-a621-5bd5-bd61-6f6c70cc38c3",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName22"
+        },
+        {
+          "label": "Component",
+          "ref": "22b028a9-0aaf-5bb0-ba22-b8dc706e1108",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName23"
+        },
+        {
+          "label": "Component",
+          "ref": "fcbfe42f-7137-55db-8933-226bf7a70043",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName24"
+        },
+        {
+          "label": "Component",
+          "ref": "b3fe6476-aab0-5093-b36f-1a307e7f47a3",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName25"
+        },
+        {
+          "label": "Component",
+          "ref": "6c99a038-3ed2-5648-aa33-52e3728238a1",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName26"
+        },
+        {
+          "label": "Component",
+          "ref": "bae8e674-3cc5-506c-9545-607188fab30e",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName27"
+        },
+        {
+          "label": "Component",
+          "ref": "266af929-e3d1-5f40-b0e3-3f3f9adbee2f",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName28"
+        },
+        {
+          "label": "Component",
+          "ref": "88104c65-2047-557d-909a-0da1daea5cb9",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName29"
+        },
+        {
+          "label": "Component",
+          "ref": "f033fb5d-3389-5e45-96cd-9d1f8001e89f",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName30"
+        },
+        {
+          "label": "Component",
+          "ref": "e3737078-9572-5650-b874-9a4b2e35beaa",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName31"
+        },
+        {
+          "label": "Component",
+          "ref": "3a11a89a-98d8-5e8c-a6a0-fc5a8586f35f",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName32"
+        },
+        {
+          "label": "Component",
+          "ref": "fb8edfb8-f71c-53c5-86dc-134b1f1546ba",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName33"
+        },
+        {
+          "label": "Component",
+          "ref": "88ee98c2-4d7a-52ea-956e-790acb128a57",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName34"
+        },
+        {
+          "label": "Component",
+          "ref": "4318a14f-ae14-5b36-ac3e-798040d3b16b",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName35"
+        },
+        {
+          "label": "Component",
+          "ref": "ad92114b-c58b-570d-96a3-065f95730d87",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName36"
+        },
+        {
+          "label": "Component",
+          "ref": "269c2ed5-fca8-54d2-b967-c2658b94349b",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName37"
+        },
+        {
+          "label": "Component",
+          "ref": "cb9b39a2-c418-57c9-8bd3-1c12ac20a148",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName38"
+        },
+        {
+          "label": "Component",
+          "ref": "be1da777-b343-516c-b37a-3dc06abaff47",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName39"
+        },
+        {
+          "label": "Component",
+          "ref": "e1fbaec5-ff67-54f4-b994-3fa75b75d37e",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName40"
+        },
+        {
+          "label": "Component",
+          "ref": "70d7a09e-b796-53a4-9a85-9f895537f521",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName41"
+        },
+        {
+          "label": "Component",
+          "ref": "c33c4280-2df4-5685-926f-e2d9556bd7c6",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName42"
+        },
+        {
+          "label": "Component",
+          "ref": "2d9dc10c-37d0-53ee-8d2a-4b8ab82ce4b5",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName43"
+        },
+        {
+          "label": "Component",
+          "ref": "9ee582ee-7fce-5ed4-9016-666f3550b3ee",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName44"
+        },
+        {
+          "label": "Component",
+          "ref": "ec507ae2-f17b-50f3-8bd4-2d593555fbc6",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName45"
+        },
+        {
+          "label": "Component",
+          "ref": "7498359c-ff03-58fc-9464-41a9331b70da",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName46"
+        },
+        {
+          "label": "Component",
+          "ref": "b64e41b1-a3db-5266-94c5-53db13d6f45d",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName47"
+        },
+        {
+          "label": "Component",
+          "ref": "8f3355d5-6dcb-5c6d-9b97-485e0843b848",
+          "api_id": "Pr9733ReportFallbackComponentWithLongTypeName48"
+        }
+      ]
+    }
+  ],
+  "schema_version": "2026-03-05"
+}

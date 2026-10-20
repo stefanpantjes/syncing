@@ -1,0 +1,587 @@
+{
+  "label": "Model",
+  "ref": "4b7f6ebe-2f11-530c-8304-7d2858289562",
+  "body": "Pr9733ValidationErrors",
+  "body_singular": "Pr9733ValidationErrors",
+  "body_plural": "Pr9733ValidationErrorss",
+  "type": "model",
+  "fields": [
+    {
+      "type": "Asset",
+      "body": "Invalid asset 01",
+      "api_id": "invalid_asset_01",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 02",
+      "api_id": "invalid_asset_02",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 03",
+      "api_id": "invalid_asset_03",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 04",
+      "api_id": "invalid_asset_04",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 05",
+      "api_id": "invalid_asset_05",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 06",
+      "api_id": "invalid_asset_06",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 07",
+      "api_id": "invalid_asset_07",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 08",
+      "api_id": "invalid_asset_08",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 09",
+      "api_id": "invalid_asset_09",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 10",
+      "api_id": "invalid_asset_10",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 11",
+      "api_id": "invalid_asset_11",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 12",
+      "api_id": "invalid_asset_12",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 13",
+      "api_id": "invalid_asset_13",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 14",
+      "api_id": "invalid_asset_14",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 15",
+      "api_id": "invalid_asset_15",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 16",
+      "api_id": "invalid_asset_16",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 17",
+      "api_id": "invalid_asset_17",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 18",
+      "api_id": "invalid_asset_18",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 19",
+      "api_id": "invalid_asset_19",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 20",
+      "api_id": "invalid_asset_20",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 21",
+      "api_id": "invalid_asset_21",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 22",
+      "api_id": "invalid_asset_22",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 23",
+      "api_id": "invalid_asset_23",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 24",
+      "api_id": "invalid_asset_24",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 25",
+      "api_id": "invalid_asset_25",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 26",
+      "api_id": "invalid_asset_26",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 27",
+      "api_id": "invalid_asset_27",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 28",
+      "api_id": "invalid_asset_28",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 29",
+      "api_id": "invalid_asset_29",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 30",
+      "api_id": "invalid_asset_30",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 31",
+      "api_id": "invalid_asset_31",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    },
+    {
+      "type": "Asset",
+      "body": "Invalid asset 32",
+      "api_id": "invalid_asset_32",
+      "required": false,
+      "min": 0,
+      "max": 1,
+      "accept": [
+        "pr9733_invalid_asset_type_01",
+        "pr9733_invalid_asset_type_02",
+        "pr9733_invalid_asset_type_03",
+        "pr9733_invalid_asset_type_04",
+        "pr9733_invalid_asset_type_05",
+        "pr9733_invalid_asset_type_06",
+        "pr9733_invalid_asset_type_07",
+        "pr9733_invalid_asset_type_08"
+      ]
+    }
+  ],
+  "schema_version": "2026-03-05"
+}

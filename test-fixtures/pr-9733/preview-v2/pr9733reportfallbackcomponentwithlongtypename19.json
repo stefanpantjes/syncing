@@ -1,0 +1,17 @@
+{
+  "label": "Component",
+  "ref": "c402abb4-de9a-5e4d-aa9b-529c76248b06",
+  "body": "Pr9733ReportFallbackComponentWithLongTypeName19",
+  "api_id": "Pr9733ReportFallbackComponentWithLongTypeName19",
+  "icon": "far fa-cube",
+  "fields": [
+    {
+      "type": "Text",
+      "body": "Text",
+      "api_id": "text",
+      "appearance": "single_line",
+      "required": false
+    }
+  ],
+  "schema_version": "2026-03-05"
+}
